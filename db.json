@@ -1,0 +1,76 @@
+{
+    "posts": [
+        { 
+            "id": 0, 
+            "img1": "/works/1-1.jpg",
+            "img2": "/works/1-2.jpg",
+            "title": "Q Plaza FUTAKOTAMAGAWA", 
+            "subTitle": "キュープラザ二子玉川",
+            "category": "Shared Space",
+            "architect": ["Honda", "Ohkawa"]
+        },
+        { 
+            "id": 1, 
+            "img1": "/works/2-1.jpg",
+            "img2": "/works/2-2.jpg",
+            "title": "SEIBU Ikebukuroten ANNEX Bldg. & BOOKSTORE Bldg. Public Space", 
+            "subTitle": ["西武池袋本店","別館・書籍館パブリックスペース"],
+            "category": "Shared Space",
+            "architect": [ "Furuichi", "Hasegawa", "Honda", "Oka"]
+        },
+        { 
+            "id": 2, 
+            "img1": "/works/3-1.jpg",
+            "img2": "/works/3-2.jpg",
+            "title": "Tenkawamura-Minamihiura Housing", 
+            "subTitle": "天川村南日裏定住促進住宅",
+            "category": "Shared Space",
+            "architect": "Honda"
+        },
+        { 
+            "id": 3, 
+            "img1": "/works/4-1.jpg",
+            "img2": "/works/4-2.jpg",
+            "title": "Riku Café", 
+            "subTitle": "りくカフェ本設",
+            "category": "Shared Space",
+            "architect": ["Honda", "Itami", "Iwai", "Ota"]
+        },
+        { 
+            "id": 4, 
+            "img1": "/works/5-1.jpg",
+            "img2": "/works/5-2.jpg",
+            "title": "SHIBUYA CAST. Collective Floor", 
+            "subTitle": "SHIBUYA CAST.コレクティブフロア",
+            "category": "Shared Space",
+            "architect": ["Honda", "Ishikawa"]
+        },
+        { 
+            "id": 5, 
+            "img1": "/works/6-1.jpg",
+            "img2": "/works/6-2.jpg",
+            "title": "GRAND PROJECTS: FAR WILL YOU GO?", 
+            "subTitle": ["21_21 DESIGN SIGHT企画展", "「『そこまでやるか』壮大なプロジェクト展」"],
+            "category": "Exhibition",
+            "architect": "Honda"
+        },
+        { 
+            "id": 6, 
+            "img1": "/works/7-1.jpg",
+            "img2": "/works/7-2.jpg",
+            "title": "Pure Heart Mizonokuchi", 
+            "subTitle": "ピュアハート溝の口",
+            "category": "Shared Space",
+            "architect": "Honda"
+        },
+        { 
+            "id": 7, 
+            "img1": "/works/2-1.jpg",
+            "img2": "/works/2-2.jpg",
+            "title": "fula", 
+            "subTitle": "",
+            "category": "Product",
+            "architect": "Honda"
+        }
+    ]
+}

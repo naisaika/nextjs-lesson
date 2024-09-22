@@ -1,0 +1,27 @@
+.navCont {
+    background-color: #fff;
+    .navList {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 48px;
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+        padding-bottom: 16px;
+        & > li {
+            position: relative;
+            & > a {
+                text-decoration: none;
+                font-family: Verdana,Tahoma,Arial,sans-serif;
+                font-weight: 600;
+                font-size: 11px;
+                color: #000;
+                padding-bottom: 5px;
+                &:hover {
+                    border-bottom: solid 3px #000;
+                }
+            }
+        }
+    }
+}

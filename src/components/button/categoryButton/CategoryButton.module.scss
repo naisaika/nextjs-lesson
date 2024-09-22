@@ -1,0 +1,14 @@
+.categoryBtn {
+    font-family: "Times New Roman", "游明朝", "YuMincho", "Hiragino Mincho ProN", "Meiryo", "serif";
+    border: none;
+    background-color: transparent;
+    font-style: oblique;
+    color: #000;
+    margin-left: 4px;
+    font-size: 13px;
+    text-decoration: underline;
+    &:hover {
+        opacity: .6;
+        text-decoration: none;
+    }
+}

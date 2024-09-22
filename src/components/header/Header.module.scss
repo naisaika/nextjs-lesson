@@ -1,0 +1,50 @@
+.headerSec {
+    position: relative;
+    top: 0;
+    z-index: 10;
+}
+
+.headerCont {
+    background-color: #fff;
+    position: relative;
+    top: 0;
+    width: 100vw;
+    height: 100px;
+    z-index: 10;
+}
+
+.contactCont {
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    padding: 20px 16px 16px;
+    position: fixed;
+    top: 24px;
+    left: 24px;
+    z-index: 20;
+    cursor: pointer;
+    & > p {
+        margin: 0;
+        font-size: 14px;
+    }
+}        
+
+.navSec {
+    width: 100vw;
+    background-color: #fff;
+    padding-top: 80px;
+    transition: all .3s ease-in;
+  }
+  
+  .fixed {
+    position: fixed;
+    top: 0;
+    transform: translate(0, 0);
+    padding-top: 20px;
+    box-shadow: 0 1px 0 0 #e8e8e8; 
+    transition: all .3s ease-in;
+  }

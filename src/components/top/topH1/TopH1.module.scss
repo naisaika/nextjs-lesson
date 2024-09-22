@@ -1,0 +1,28 @@
+.imgH1 {
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    opacity: 1;
+    z-index: 50;
+}
+
+.imgH1Anime {
+    animation: imganimation 1.5s ease-in-out forwards;
+}
+
+@keyframes imganimation {
+    0% {  
+        opacity: 1;
+        transform: translate(-50%, -50%); 
+    }
+    80% {  
+            opacity: 0; 
+            transform: translate(-50%, -10%);
+        }
+    100% { 
+            opacity: 0; 
+            transform: translate(-50%, -50%);
+        }
+}
