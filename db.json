@@ -4,73 +4,496 @@
             "id": 0, 
             "img1": "/works/1-1.jpg",
             "img2": "/works/1-2.jpg",
+            "title": "Oyado Onn Nakatsugawa", 
+            "subTitle": "お宿Onn 中津川",
+            "category": "Shared Space",
+            "architect": ["Bae", "Hasegawa", "Hiyori"]
+        },
+        { 
+            "id": 1, 
+            "img1": "/works/2-1.jpg",
+            "img2": "/works/2-2.jpg",
+            "title": "Dance of light", 
+            "subTitle": "",
+            "category": "Shared Space",
+            "architect": "Torii"
+        },
+        { 
+            "id": 2, 
+            "img1": "/works/3-1.jpg",
+            "img2": "/works/3-2.jpg",
+            "title": "MAZDA MX-30 TVCM", 
+            "subTitle": "MAZDA MX-30 TVCM出演",
+            "category": "News",
+            "architect": ""
+        },
+        { 
+            "id": 3, 
+            "img1": "/works/4-1.jpg",
+            "img2": "/works/4-2.jpg",
             "title": "Q Plaza FUTAKOTAMAGAWA", 
             "subTitle": "キュープラザ二子玉川",
             "category": "Shared Space",
             "architect": ["Honda", "Ohkawa"]
         },
         { 
-            "id": 1, 
-            "img1": "/works/2-1.jpg",
-            "img2": "/works/2-2.jpg",
-            "title": "SEIBU Ikebukuroten ANNEX Bldg. & BOOKSTORE Bldg. Public Space", 
-            "subTitle": ["西武池袋本店","別館・書籍館パブリックスペース"],
+            "id": 4, 
+            "img1": "/works/5-1.jpg",
+            "img2": "/works/5-2.jpg",
+            "title": "31VENTURES KOIL", 
+            "subTitle": ["柏の葉", "オープンイノベーション・ラボ"],
             "category": "Shared Space",
-            "architect": [ "Furuichi", "Hasegawa", "Honda", "Oka"]
+            "architect": "Furuichi"
         },
         { 
-            "id": 2, 
-            "img1": "/works/3-1.jpg",
-            "img2": "/works/3-2.jpg",
+            "id": 5, 
+            "img1": "/works/6-1.jpg",
+            "img2": "/works/6-2.jpg",
+            "title": "Kyukaruizawa Club Villa", 
+            "subTitle": "旧軽井沢倶楽部の別荘",
+            "category": "Private House",
+            "architect": ["Hayata", "Hiyori", "Kawabata", "Sato"]
+        },
+        { 
+            "id": 6, 
+            "img1": "/works/7-1.jpg",
+            "img2": "/works/7-2.jpg",
+            "title": "Oyado Onn Yudaonsen", 
+            "subTitle": "お宿Onn 湯田温泉",
+            "category": "Shared Space",
+            "architect": ["Kawabata", "Ohbayashi"]
+        },
+        { 
+            "id": 7, 
+            "img1": "/works/8-1.jpg",
+            "img2": "/works/8-2.jpg",
+            "title": "meet tree GINZA", 
+            "subTitle": "meet tree 銀座",
+            "category": "Shared Space",
+            "architect": ["Marui", "Namiki"]
+        },
+        { 
+            "id": 8, 
+            "img1": "/works/9-1.jpg",
+            "img2": "/works/9-2.jpg",
+            "title": "9h nine hours Namba station", 
+            "subTitle": "ナインアワーズなんば駅",
+            "category": "Shared Space",
+            "architect": "Yamagata"
+        },
+        { 
+            "id": 9, 
+            "img1": "/works/10-1.jpg",
+            "img2": "/works/10-2.jpg",
+            "title": "DENSO Global R&D Tokyo,Haneda", 
+            "subTitle": "DENSO Global R&D Tokyo,Haneda",
+            "category": "Shared Space",
+            "architect": "Hasegawa"
+        },
+        { 
+            "id": 10, 
+            "img1": "/works/11-1.jpg",
+            "img2": "/works/11-2.jpg",
+            "title": "Social Base HIGASHINAKANO", 
+            "subTitle": "ソーシャルベース東中野",
+            "category": "Shared Space",
+            "architect": "&K architects"
+        },
+        { 
+            "id": 11, 
+            "img1": "/works/12-1.jpg",
+            "img2": "/works/12-2.jpg",
+            "title": "Mount Takao Sumika", 
+            "subTitle": "高尾山スミカ",
+            "category": "Shared Space",
+            "architect": ["Kawabata", "Nagayama"]
+        },
+        { 
+            "id": 12, 
+            "img1": "/works/13-1.jpg",
+            "img2": "/works/13-2.jpg",
+            "title": "meet tree NAKATSUGAWA", 
+            "subTitle": "meet tree 中津川",
+            "category": "Shared Space",
+            "architect": ["Kaneta", "Shimada"]
+        },
+        { 
+            "id": 13, 
+            "img1": "/works/14-1.jpg",
+            "img2": "/works/14-2.jpg",
+            "title": "LIETO-GARDEN MITAKA", 
+            "subTitle": "リエットガーデン三鷹",
+            "category": "Shared Space",
+            "architect": "Hasegawa"
+        },
+        { 
+            "id": 14, 
+            "img1": "/works/15-1.jpg",
+            "img2": "/works/15-2.jpg",
+            "title": ["9h nine hours", "Nakasu-Kawabata station"],
+            "subTitle": "ナインアワーズ中洲川端駅",
+            "category": "Shared Space",
+            "architect": "Kawabata"
+        },
+        { 
+            "id": 15, 
+            "img1": "/works/16-1.jpg",
+            "img2": "/works/16-2.jpg",
+            "title": "LT Josai", 
+            "subTitle": "LT城西",
+            "category": "Shared Space",
+            "architect": "Kanada"
+        },
+        { 
+            "id": 16, 
+            "img1": "/works/17-1.jpg",
+            "img2": "/works/17-2.jpg",
+            "title": "Teshima 8million lab", 
+            "subTitle": "豊島八百万ラボ",
+            "category": "Shared Space",
+            "architect": ["Furuichi", "Hasegawa", "Oka"]
+        },
+        { 
+            "id": 17, 
+            "img1": "/works/18-1.jpg",
+            "img2": "/works/18-2.jpg",
+            "title": ["SEIBU Ikebukuroten ANNEX Bldg.", "& BOOKSTORE Bldg. Public Space"], 
+            "subTitle": ["西武池袋本店", "別館・書籍館パブリックスペース"],
+            "category": "Shared Space",
+            "architect": ["Furuichi", "Hasegawa", "Honda", "Oka"]
+        },
+        { 
+            "id": 18, 
+            "img1": "/works/19-1.jpg",
+            "img2": "/works/19-2.jpg",
+            "title": "Split House", 
+            "subTitle": "スプリットハウス",
+            "category": "Private House",
+            "architect": ["Ishikawa", "Ota"]
+        },
+        { 
+            "id": 19, 
+            "img1": "/works/20-1.jpg",
+            "img2": "/works/20-2.jpg",
+            "title": "common furniture / Partition", 
+            "subTitle": "コモンファニチャー パーティション",
+            "category": "Product",
+            "architect": "Odaka"
+        },
+        { 
+            "id": 20, 
+            "img1": "/works/21-1.jpg",
+            "img2": "/works/21-2.jpg",
+            "title": "common furniture", 
+            "subTitle": "コモンファニチャー",
+            "category": "Product",
+            "architect": "Konishi"
+        },
+        { 
+            "id": 21, 
+            "img1": "/works/22-1.jpg",
+            "img2": "/works/22-2.jpg",
+            "title": "OPEN CAVE", 
+            "subTitle": "",
+            "category": "Private House",
+            "architect": ["Kawabata", "Nagayama"]
+        },
+        { 
+            "id": 22, 
+            "img1": "/works/23-1.jpg",
+            "img2": "/works/23-2.jpg",
+            "title": "GOOD DESIGN EXHIBITION 2019", 
+            "subTitle": "",
+            "category": "Exhibition",
+            "architect": ["Hashegawa", "Shimada"]
+        },
+        { 
+            "id": 23, 
+            "img1": "/works/24-1.jpg",
+            "img2": "/works/24-2.jpg",
+            "title": "Sakanoue Terrace", 
+            "subTitle": "坂の上テラス",
+            "category": "Shared Space",
+            "architect": "Kanada"
+        },
+        { 
+            "id": 24, 
+            "img1": "/works/25-1.jpg",
+            "img2": "/works/25-2.jpg",
+            "title": "DENSO Corporation Nagoya Office", 
+            "subTitle": "",
+            "category": "Shared Space",
+            "architect": ["Hasegawa", "Nagayama"]
+        },
+        { 
+            "id": 25, 
+            "img1": "/works/26-1.jpg",
+            "img2": "/works/26-2.jpg",
             "title": "Tenkawamura-Minamihiura Housing", 
             "subTitle": "天川村南日裏定住促進住宅",
             "category": "Shared Space",
             "architect": "Honda"
         },
         { 
-            "id": 3, 
-            "img1": "/works/4-1.jpg",
-            "img2": "/works/4-2.jpg",
+            "id": 26, 
+            "img1": "/works/27-1.jpg",
+            "img2": "/works/27-2.jpg",
             "title": "Riku Café", 
             "subTitle": "りくカフェ本設",
             "category": "Shared Space",
             "architect": ["Honda", "Itami", "Iwai", "Ota"]
         },
         { 
-            "id": 4, 
-            "img1": "/works/5-1.jpg",
-            "img2": "/works/5-2.jpg",
+            "id": 27, 
+            "img1": "/works/28-1.jpg",
+            "img2": "/works/28-2.jpg",
+            "title": "SHIRO ARIMOTO Memorial Alumni Hall", 
+            "subTitle": "有元史郎記念校友会館",
+            "category": "Shared Space",
+            "architect": "Kaneta"
+        },
+        { 
+            "id": 28, 
+            "img1": "/works/29-1.jpg",
+            "img2": "/works/29-2.jpg",
+            "title": "Venice biennale 2016", 
+            "subTitle": ["第15回ヴェネチア・ビエンナーレ", "国際建築展 日本館"],
+            "category": "Exhibition",
+            "architect": ["Isobe", "Kanada"]
+        },
+        { 
+            "id": 29, 
+            "img1": "/works/30-1.jpg",
+            "img2": "/works/30-2.jpg",
+            "title": "House / Café in Kyodo", 
+            "subTitle": "経堂のカフェ",
+            "category": "Shared Space",
+            "architect": ["Hasegawa", "Ota"]
+        },
+        { 
+            "id": 30, 
+            "img1": "/works/31-1.jpg",
+            "img2": "/works/31-2.jpg",
             "title": "SHIBUYA CAST. Collective Floor", 
             "subTitle": "SHIBUYA CAST.コレクティブフロア",
             "category": "Shared Space",
             "architect": ["Honda", "Ishikawa"]
         },
         { 
-            "id": 5, 
-            "img1": "/works/6-1.jpg",
-            "img2": "/works/6-2.jpg",
-            "title": "GRAND PROJECTS: FAR WILL YOU GO?", 
+            "id": 31, 
+            "img1": "/works/32-1.jpg",
+            "img2": "/works/32-2.jpg",
+            "title": ["GRAND PROJECTS:", "HOW FAR WILL YOU GO?"],
             "subTitle": ["21_21 DESIGN SIGHT企画展", "「『そこまでやるか』壮大なプロジェクト展」"],
             "category": "Exhibition",
             "architect": "Honda"
         },
         { 
-            "id": 6, 
-            "img1": "/works/7-1.jpg",
-            "img2": "/works/7-2.jpg",
+            "id": 32, 
+            "img1": "/works/33-1.jpg",
+            "img2": "/works/33-2.jpg",
+            "title": "FabCafe Tokyo（Renewal）", 
+            "subTitle": "FabCafe Tokyo（リニューアル）",
+            "category": "Shared Space",
+            "architect": "Furuichi"
+        },
+        { 
+            "id": 33, 
+            "img1": "/works/34-1.jpg",
+            "img2": "/works/34-2.jpg",
             "title": "Pure Heart Mizonokuchi", 
             "subTitle": "ピュアハート溝の口",
             "category": "Shared Space",
             "architect": "Honda"
         },
         { 
-            "id": 7, 
-            "img1": "/works/2-1.jpg",
-            "img2": "/works/2-2.jpg",
+            "id": 34, 
+            "img1": "/works/35-1.jpg",
+            "img2": "/works/35-2.jpg",
+            "title": "House in Itabashi", 
+            "subTitle": "板橋の立体住居",
+            "category": "Private House",
+            "architect": ["Furuichi", "Ogiya", "Ota"]
+        },
+        { 
+            "id": 35, 
+            "img1": "/works/36-1.jpg",
+            "img2": "/works/36-2.jpg",
+            "title": "Setagaya Flat", 
+            "subTitle": "世田谷フラット",
+            "category": "Private House",
+            "architect": ""
+        },
+        { 
+            "id": 36, 
+            "img1": "/works/37-1.jpg",
+            "img2": "/works/37-2.jpg",
+            "title": "FabCafe", 
+            "subTitle": "",
+            "category": "Shared Space",
+            "architect": ""
+        },
+        { 
+            "id": 37, 
+            "img1": "/works/38-1.jpg",
+            "img2": "/works/38-2.jpg",
             "title": "fula", 
             "subTitle": "",
             "category": "Product",
             "architect": "Honda"
+        },
+        { 
+            "id": 38, 
+            "img1": "/works/39-1.jpg",
+            "img2": "/works/39-2.jpg",
+            "title": "Designing Methods of Shared Space", 
+            "subTitle": "シェア空間の設計手法",
+            "category": "Media",
+            "architect": "Oka"
+        },
+        { 
+            "id": 39, 
+            "img1": "/works/40-1.jpg",
+            "img2": "/works/40-2.jpg",
+            "title": "Designing Share", 
+            "subTitle": "シェアをデザインする",
+            "category": "Media",
+            "architect": ""
+        },
+        { 
+            "id": 40, 
+            "img1": "/works/41-1.jpg",
+            "img2": "/works/41-2.jpg",
+            "title": "KJ June 2014", 
+            "subTitle": "KJ 2014年6月号",
+            "category": "Media",
+            "architect": "Fujieda"
+        },
+        { 
+            "id": 41, 
+            "img1": "/works/42-1.jpg",
+            "img2": "/works/42-2.jpg",
+            "title": "skyroom", 
+            "subTitle": "",
+            "category": "Private House",
+            "architect": "Iwai"
+        },
+        { 
+            "id": 42, 
+            "img1": "/works/43-1.jpg",
+            "img2": "/works/43-2.jpg",
+            "title": "THE SCAPE (R)", 
+            "subTitle": "",
+            "category": "Shared Space",
+            "architect": "Ota"
+        },
+        { 
+            "id": 43, 
+            "img1": "/works/44-1.jpg",
+            "img2": "/works/44-2.jpg",
+            "title": "HOUSE VISION SUPERLATIVE SPACE", 
+            "subTitle": "HOUSE VISION 「極上の間」",
+            "category": "Exhibition",
+            "architect": "Iwai"
+        },
+        { 
+            "id": 44, 
+            "img1": "/works/45-1.jpg",
+            "img2": "/works/45-2.jpg",
+            "title": "Light of 141 polyhedron", 
+            "subTitle": "141面体の照明",
+            "category": "Product",
+            "architect": "Arei"
+        },
+        { 
+            "id": 45, 
+            "img1": "/works/46-1.jpg",
+            "img2": "/works/46-2.jpg",
+            "title": "one for all", 
+            "subTitle": "",
+            "category": "Product",
+            "architect": "Arei"
+        },
+        { 
+            "id": 46, 
+            "img1": "/works/47-1.jpg",
+            "img2": "/works/47-2.jpg",
+            "title": ["UNDER35Garelly", "Exhibiton of Yuri Naruse+Jun Inokuma"],
+            "subTitle": ["UNDER35ギャラリー", "成瀬友梨＋猪熊純展"],
+            "category": "Exhibition",
+            "architect": ""
+        },
+        { 
+            "id": 47, 
+            "img1": "/works/48-1.jpg",
+            "img2": "/works/48-2.jpg",
+            "title": "IE-tag Color", 
+            "subTitle": "イエタグ・カラー",
+            "category": "Product",
+            "architect": ""
+        },
+        { 
+            "id": 48, 
+            "img1": "/works/49-1.jpg",
+            "img2": "/works/49-2.jpg",
+            "title": "IE-tag", 
+            "subTitle": "イエタグ",
+            "category": "Product",
+            "architect": ""
+        },
+        { 
+            "id": 49, 
+            "img1": "/works/50-1.jpg",
+            "img2": "/works/50-2.jpg",
+            "title": "Re-think about Living and Gathering", 
+            "subTitle": "集まって住む、を考えなおす",
+            "category": "Exhibition",
+            "architect": ""
+        },
+        { 
+            "id": 50, 
+            "img1": "/works/51-1.jpg",
+            "img2": "/works/51-2.jpg",
+            "title": "Earth: Materials for Design", 
+            "subTitle": "地球マテリアル会議",
+            "category": "Exhibition",
+            "architect": ""
+        },
+        { 
+            "id": 51, 
+            "img1": "/works/52-1.jpg",
+            "img2": "/works/52-2.jpg",
+            "title": "cloths poles", 
+            "subTitle": "",
+            "category": "Product",
+            "architect": ""
+        },
+        { 
+            "id": 52, 
+            "img1": "/works/53-1.jpg",
+            "img2": "/works/53-2.jpg",
+            "title": "from one sheet", 
+            "subTitle": "",
+            "category": "Product",
+            "architect": ""
+        },
+        { 
+            "id": 53, 
+            "img1": "/works/54-1.jpg",
+            "img2": "/works/54-2.jpg",
+            "title": "Forest of One Room", 
+            "subTitle": ["ひとへやの森", "インタラクティブな風景展"],
+            "category": "Exhibition",
+            "architect": ""
+        },
+        { 
+            "id": 54, 
+            "img1": "/works/55-1.jpg",
+            "img2": "/works/55-2.jpg",
+            "title": "ROOM 101", 
+            "subTitle": "",
+            "category": "Private House",
+            "architect": ""
         }
     ]
 }

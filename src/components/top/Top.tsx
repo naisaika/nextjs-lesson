@@ -38,16 +38,16 @@ export const Top = () => {
         <ul className={styles.bgImgList}>
             {bgImg.map((img) => {
                 return (
-                    <li key={img.id}>
+                    <li key={img.id}
+                        onMouseEnter={() => onMouseHoverImg(img.id)}
+                        onMouseLeave={removeHoverImg}>
                         <Image 
                             src={img.Image} 
                             alt={`背景${img.id}`} 
                             width={1920} 
                             height={1280} 
                             priority 
-                            className={styles.bgImg}
-                            onMouseEnter={() => onMouseHoverImg(img.id)}
-                            onMouseLeave={removeHoverImg}>
+                            className={styles.bgImg}>
                         </Image>
                         <TopBgImgCaption imgId={img.id} mouseHover={hoverImg === img.id}/>
                     </li>

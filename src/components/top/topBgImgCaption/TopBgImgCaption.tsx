@@ -46,7 +46,6 @@ export const TopBgImgCaption = ({imgId, mouseHover}: imgIdProps) => {
   const caption = topCaptionList.find((imgid) => imgId === imgid.id);
   if(!caption) return null
 
-
   return (
     <div className={`${styles.captionCont} ${mouseHover? styles.imgHover: ""}`}>
       <h2 className={styles.title}>{caption.title}</h2>
@@ -60,6 +59,7 @@ export const TopBgImgCaption = ({imgId, mouseHover}: imgIdProps) => {
             )
           }) : caption.subTitle}
       </p>
+      <span className={styles.line}></span>
       <p className={styles.category}>Category: 
         <CategoryButton>{caption.category}</CategoryButton>
       </p>
@@ -69,10 +69,10 @@ export const TopBgImgCaption = ({imgId, mouseHover}: imgIdProps) => {
           {Array.isArray(caption.architect)? 
           caption.architect.map((text, index) => {
             return (
-              <span key={index} className={styles.span}>
-              {text}
-              {index < caption.architect.length-1 && ","}
-            </span>
+              <div key={index} className={styles.container}>
+                <span className={styles.span}>{text}</span>
+                <span className={styles.mark}>{index < caption.architect.length-1 && ","}</span>
+              </div>
             )
           }) : caption.architect}
           </CategoryButton>

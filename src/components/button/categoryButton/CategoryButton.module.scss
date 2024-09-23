@@ -6,7 +6,11 @@
     color: #000;
     margin-left: 4px;
     font-size: 13px;
+    letter-spacing: 0.05em;
+    padding: 0;
+    display: flex;
     text-decoration: underline;
+    cursor: pointer;
     &:hover {
         opacity: .6;
         text-decoration: none;

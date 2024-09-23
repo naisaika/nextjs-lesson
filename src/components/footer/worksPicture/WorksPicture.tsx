@@ -1,6 +1,7 @@
 import { getAllData } from "@/api/apiData"
-import stlyes from "./WorksPicture.module.scss"
-import Image from "next/image";
+import styles from "./WorksPicture.module.scss"
+import { CategoryButton } from "@/components/button/categoryButton/CategoryButton";
+import { Picture } from "./picture/Picture";
 
 export const WorksPicture = async() => {
 
@@ -8,20 +9,50 @@ export const WorksPicture = async() => {
 
   return (
     <div>
-        <ul>
-            <li>
-                <div>
-                    <Image src="/works/1-1.jpg" alt="写真" width={300} height={200}></Image>
-                    <Image src="/works/1-2.jpg" alt="写真" width={300} height={200}></Image>
-                </div>
-                <p>Q Plaza FUTAKOTAMAGAWA</p>
-                <p>キュープラザ二子玉川</p>
-                <p>Category:</p>
-                <p>Shared Space</p>
-                <p>Architect</p>
-                <p>Honda, Ohkawa</p>
-            </li>
+        <ul className={styles.dataList}>
+            {allData.map((data) => {
+
+                return (
+                    <li key={data.id} className={styles.listDetail}>
+                        <Picture img1={data.img1} img2={data.img2}></Picture>
+                        <h3 className={styles.dataTitle}>{Array.isArray(data.title)?
+                            data.title.map((text, index) => {
+                                return (
+                                    <span key={index}>{text}</span>
+                                )
+                            }): data.title}
+                        </h3>
+                        {data.subTitle && <p className={styles.dataSubTitle}>
+                            {Array.isArray(data.subTitle)? 
+                            data.subTitle.map((text, index) => {
+                                return (
+                                    <span key={index}>{text}</span>
+                                )
+                            }): data.subTitle}</p>}
+                        <p className={styles.category}>Category: 
+                            <CategoryButton>{data.category}</CategoryButton>
+                        </p>
+                        {data.architect && <p className={styles.architect}>Architect:
+                            <span className={styles.architectBtn}>
+                                {Array.isArray(data.architect)?
+                                data.architect.map((text: string, index: number) => {
+                                    return (
+                                        <button type="button" key={index} className={styles.container}>
+                                            <span className={styles.span}>{text}</span>
+                                            <span className={styles.mark}>{index < data.architect.length-1 && "," }</span>
+                                        </button>
+                                    )
+                                }): 
+                                <button type="button" className={styles.singleBtn}>
+                                    {data.architect}
+                                </button>}
+                            </span>
+                        </p>}
+                    </li>
+                )
+            })}
         </ul>
     </div>
   )
 }
+

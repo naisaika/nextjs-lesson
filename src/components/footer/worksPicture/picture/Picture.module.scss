@@ -1,0 +1,69 @@
+.imgCont{
+    overflow-y: hidden;
+    position: relative;
+    cursor: pointer;
+    .img1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(0);
+        width: 100%;
+        object-fit: cover;
+    }
+    .img2 {
+        transform: translateY(204px);
+        object-fit: cover;
+    }
+}
+
+.img1Hover {
+    animation: hoverpic .6s ease-out forwards;
+}
+
+.resetPic {
+    animation: resetpic .6s ease-out forwards;
+}
+
+@keyframes hoverpic {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-204px);
+    }
+}
+
+@keyframes resetpic {
+    0% {
+        transform: translateY(-204px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.img2Hover {
+    animation: hoverpic2 .6s ease-out forwards;
+}
+
+.resetPic2 {
+    animation: resetpic2 .6s ease-out forwards;
+}
+
+@keyframes hoverpic2 {
+    0% {
+        transform: translateY(204px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes resetpic2 {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(204px);
+    }
+}
