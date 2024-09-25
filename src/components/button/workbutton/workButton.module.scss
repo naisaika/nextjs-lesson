@@ -11,3 +11,16 @@
         background-color: #fff;
     }
 }
+
+.btnCrear {
+    animation: changeOpacity .6s ease-in forwards;
+}
+
+@keyframes changeOpacity {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

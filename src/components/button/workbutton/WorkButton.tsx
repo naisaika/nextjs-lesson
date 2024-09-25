@@ -6,6 +6,7 @@ interface WorkButtonProps {
 
 export const WorkButton = ({className}: WorkButtonProps) => {
   return (
-    <button type="button" className={`${styles.workBtn} ${className}`}>WORKS</button>
+    <button type="button" 
+      className={`${styles.workBtn} ${className}`}>WORKS</button>
   )
 }

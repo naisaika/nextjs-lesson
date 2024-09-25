@@ -495,5 +495,28 @@
             "category": "Private House",
             "architect": ""
         }
+    ],
+    "categories": [
+        { "id": 0, "category": "ALL" },
+        { "id": 1, "category": "Shared Space" },
+        { "id": 2, "category": "Private House" },
+        { "id": 3, "category": "Exhibition" },
+        { "id": 4, "category": "Product" },
+        { "id": 5, "category": "Media" }
+    ],
+    "architects": [
+        { "id": 0, "architect": "ALL" },
+        { "id": 1, "architect": "Arei" },
+        { "id": 2, "architect": "Ota" },
+        { "id": 3, "architect": "Kanda" },
+        { "id": 4, "architect": "Iwai" },
+        { "id": 5, "architect": "Honda" },
+        { "id": 6, "architect": "Furuichi" },
+        { "id": 7, "architect": "Imai" },
+        { "id": 8, "architect": "Fujieda" },
+        { "id": 9, "architect": "Oka" },
+        { "id": 10, "architect": "Hasegawa" },
+        { "id": 11, "architect": "Isobe" },
+        { "id": 12, "architect": "Ogiya" }
     ]
 }

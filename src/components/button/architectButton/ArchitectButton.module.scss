@@ -1,0 +1,43 @@
+.architect {
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    display: flex;
+    margin: 4px 0 16px 0;
+    .architectBtn {
+      display: flex;
+      .singleBtn {
+        font-style: oblique;
+        font-family: "Times New Roman", "游明朝", "YuMincho", "Hiragino Mincho ProN", "Meiryo", "serif";
+        text-decoration: underline;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        margin-left: 4px;
+        &:hover {
+            opacity: .6;
+            text-decoration: none;
+          }
+      }
+      .container {
+        display: flex;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        .span {
+          margin-left: 4px;
+          text-decoration: underline;
+          font-style: oblique;
+          font-family: "Times New Roman", "游明朝", "YuMincho", "Hiragino Mincho ProN", "Meiryo", "serif";
+          cursor: pointer;
+          &:hover {
+            opacity: .6;
+            text-decoration: none;
+          }
+        }
+        .mark {
+          margin-left: 2px;
+        }
+      }
+    }
+}

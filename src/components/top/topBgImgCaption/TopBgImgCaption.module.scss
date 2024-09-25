@@ -33,28 +33,6 @@
         letter-spacing: 0.05em;
         display: flex;
     }
-    .architect {
-        font-size: 13px;
-        letter-spacing: 0.05em;
-        font-style: oblique;
-        color: #000;
-        margin-left: 4px;
-        display: flex;
-        &:hover {
-            opacity: .6;
-            text-decoration: none;
-        }
-        .container {
-            display: flex;
-            .span {
-                margin-left: 4px;
-            }
-            .mark {
-                text-decoration: none;
-                display: inline-block;
-            }   
-        }
-    }
 }
 
 .imgHover {

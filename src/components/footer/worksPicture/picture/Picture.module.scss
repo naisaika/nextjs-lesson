@@ -11,7 +11,7 @@
         object-fit: cover;
     }
     .img2 {
-        transform: translateY(204px);
+        transform: translateY(205px);
         object-fit: cover;
     }
 }
@@ -29,13 +29,13 @@
         transform: translateY(0);
     }
     100% {
-        transform: translateY(-204px);
+        transform: translateY(-205px);
     }
 }
 
 @keyframes resetpic {
     0% {
-        transform: translateY(-204px);
+        transform: translateY(-205px);
     }
     100% {
         transform: translateY(0);
@@ -52,7 +52,7 @@
 
 @keyframes hoverpic2 {
     0% {
-        transform: translateY(204px);
+        transform: translateY(205px);
     }
     100% {
         transform: translateY(0);
@@ -64,6 +64,6 @@
         transform: translateY(0);
     }
     100% {
-        transform: translateY(204px);
+        transform: translateY(205px);
     }
 }

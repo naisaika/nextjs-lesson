@@ -6,20 +6,21 @@ interface NaviItems {
     href: string;
 }
 
+const NABI_ITEMS : NaviItems[] = [
+    {text: "TOP", href: "#"},
+    {text: "NEWS", href: "#"},
+    {text: "VISION", href: "#"},
+    {text: "RECRUIT", href: "#"},
+    {text: "ABOUT US", href: "#"},
+    {text: "ACCESS", href: "#"},
+]
+
 export const Navi = () => {
-    const naviItems : NaviItems[] = [
-        {text: "TOP", href: "#"},
-        {text: "NEWS", href: "#"},
-        {text: "VISION", href: "#"},
-        {text: "RECRUIT", href: "#"},
-        {text: "ABOUT US", href: "#"},
-        {text: "ACCESS", href: "#"},
-    ]
 
   return (
     <nav className={styles.navCont}>
         <ul className={styles.navList}>
-            {naviItems.map((naviItem, index) => {
+            {NABI_ITEMS.map((naviItem, index) => {
                 return (
                     <li key={index}>
                         <Link href={naviItem.href}>{naviItem.text}</Link>

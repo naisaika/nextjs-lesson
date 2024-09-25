@@ -7,3 +7,13 @@ export interface DataType {
     category: string,
     architect: string | []
 }
+
+export interface CategoryType {
+    id: number, 
+    category: string
+}
+
+export interface ArchitectType {
+    id: number, 
+    architect: string
+}

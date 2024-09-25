@@ -5,7 +5,6 @@ import { WorksPicture } from "./worksPicture/WorksPicture"
 
 export const Footer = () => {
 
-
   return (
     <section className={styles.footerSec}>
       <div className={styles.worksCont}>
