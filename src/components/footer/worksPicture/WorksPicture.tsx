@@ -31,10 +31,10 @@ export const WorksPicture = async() => {
                                 )
                             }): data.subTitle}</p>}
                         <p className={styles.category}>Category: 
-                            <CategoryButton dataCategory={data.category} dataId={data.id}>{data.category}</CategoryButton>
+                            <CategoryButton dataCategory={data.category} dataCategoryId={data.id}>{data.category}</CategoryButton>
                         </p>
                         {data.architect && 
-                            <ArchitectButton architect={data.architect}></ArchitectButton>}
+                            <ArchitectButton dataArchitect={data.architect} dataArchitectId={data.id} architect={data.architect}></ArchitectButton>}
                     </li>
                 )
             })}

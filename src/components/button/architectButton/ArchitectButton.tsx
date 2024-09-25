@@ -2,7 +2,7 @@ import styles from "./ArchitectButton.module.scss"
 
 interface ArchitectButtonProps {
     architect: string | string[]; // architectが文字列または配列
-    dataArchitect: string;
+    dataArchitect: string | string[];
     dataArchitectId: number;
   }
 

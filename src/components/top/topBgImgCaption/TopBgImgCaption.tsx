@@ -103,7 +103,7 @@ export const TopBgImgCaption = ({imgId, mouseHover}: imgIdProps) => {
         <CategoryButton dataCategory={caption.category} dataCategoryId={matchCategory.id}>{caption.category}</CategoryButton>
       </p>
       {caption.architect &&
-        <ArchitectButton dataArchitect={caption.architect} dataArchtectId={matchiArchitect.id} architect={caption.architect}></ArchitectButton>
+        <ArchitectButton dataArchitect={caption.architect} dataArchitectId={matchArchitect.id} architect={caption.architect}></ArchitectButton>
       }
     </div>
   )
