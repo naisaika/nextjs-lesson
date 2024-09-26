@@ -1,15 +1,14 @@
-"use client";
-
 import { ArchitectButton } from "@/components/button/architectButton/ArchitectButton";
 import styles from "./TopBgImgCaption.module.scss"
 import { CategoryButton } from "@/components/button/categoryButton/CategoryButton";
-import { getArchitectData, getCategoryData } from "@/api/apiData";
-import { useEffect, useState } from "react";
-import { ArchitectType, CategoryType } from "@/api/dataType";
+import { CategoryType } from "@/api/dataType";
+import { ArchitectType } from "@/api/dataType";
 
 interface imgIdProps {
   imgId: number;
   mouseHover: boolean;
+  categoryData:  CategoryType[];
+  architectData: ArchitectType[];
 }
 
 const TOP_CAPTION_LIST = [
@@ -47,39 +46,13 @@ const TOP_CAPTION_LIST = [
   }
 ]
 
-export const TopBgImgCaption = ({imgId, mouseHover}: imgIdProps) => {
-  const [categoryData, setCategoryData] = useState<CategoryType[]>([]);
-  const [architectData, setArchitectData] = useState<ArchitectType[]>([]);
-
-  useEffect(() => {
-    const getCategory = async () => {
-      try {
-        const data = await getCategoryData();
-        setCategoryData(data);
-      } catch (error) {
-        console.error("エラーが発生しました。", error);
-      }
-    };
-    getCategory();
-  }, []);
-  
-  useEffect(() => {
-    const architectData = async () => {
-      try {
-        const data = await getArchitectData();
-        setArchitectData(data);
-        
-      } catch (error) {
-        console.error("エラーが発生しました。", error);
-      }
-    };
-    architectData();
-  }, []); 
+export const TopBgImgCaption = ({imgId, mouseHover, categoryData, architectData}: imgIdProps) => {
 
   const caption = TOP_CAPTION_LIST.find((imgid) => imgId === imgid.id);
   if(!caption) return null
 
-  const matchCategory = categoryData.find((category) => category.id === String(caption.id));
+  const matchCategory = categoryData.find((category) => category.id === caption.id);
+ 
   if (!matchCategory) return null;
 
   const matchArchitect = architectData.find((architect) => architect.id === caption.id);

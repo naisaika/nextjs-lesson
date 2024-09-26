@@ -10,10 +10,10 @@ export interface DataType {
 
 export interface CategoryType {
     id: number, 
-    category: string
+    title: string
 }
 
 export interface ArchitectType {
     id: number, 
-    architect: string
+    title: string
 }

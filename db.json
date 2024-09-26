@@ -497,26 +497,26 @@
         }
     ],
     "categories": [
-        { "id": 0, "category": "ALL" },
-        { "id": 1, "category": "Shared Space" },
-        { "id": 2, "category": "Private House" },
-        { "id": 3, "category": "Exhibition" },
-        { "id": 4, "category": "Product" },
-        { "id": 5, "category": "Media" }
+        { "id": 0, "title": "ALL" },
+        { "id": 1, "title": "Shared Space" },
+        { "id": 2, "title": "Private House" },
+        { "id": 3, "title": "Exhibition" },
+        { "id": 4, "title": "Product" },
+        { "id": 5, "title": "Media" }
     ],
     "architects": [
-        { "id": 0, "architect": "ALL" },
-        { "id": 1, "architect": "Arei" },
-        { "id": 2, "architect": "Ota" },
-        { "id": 3, "architect": "Kanda" },
-        { "id": 4, "architect": "Iwai" },
-        { "id": 5, "architect": "Honda" },
-        { "id": 6, "architect": "Furuichi" },
-        { "id": 7, "architect": "Imai" },
-        { "id": 8, "architect": "Fujieda" },
-        { "id": 9, "architect": "Oka" },
-        { "id": 10, "architect": "Hasegawa" },
-        { "id": 11, "architect": "Isobe" },
-        { "id": 12, "architect": "Ogiya" }
+        { "id": 0, "title": "ALL" },
+        { "id": 1, "title": "Arei" },
+        { "id": 2, "title": "Ota" },
+        { "id": 3, "title": "Kanda" },
+        { "id": 4, "title": "Iwai" },
+        { "id": 5, "title": "Honda" },
+        { "id": 6, "title": "Furuichi" },
+        { "id": 7, "title": "Imai" },
+        { "id": 8, "title": "Fujieda" },
+        { "id": 9, "title": "Oka" },
+        { "id": 10, "title": "Hasegawa" },
+        { "id": 11, "title": "Isobe" },
+        { "id": 12, "title": "Ogiya" }
     ]
 }
