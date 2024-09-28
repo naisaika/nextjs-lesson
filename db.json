@@ -24,7 +24,7 @@
             "img2": "/works/3-2.jpg",
             "title": "MAZDA MX-30 TVCM", 
             "subTitle": "MAZDA MX-30 TVCM出演",
-            "category": "News",
+            "category": "Media",
             "architect": ""
         },
         { 
@@ -508,11 +508,11 @@
         { "id": 0, "title": "ALL" },
         { "id": 1, "title": "Arei" },
         { "id": 2, "title": "Ota" },
-        { "id": 3, "title": "Kanda" },
+        { "id": 3, "title": "Kanada" },
         { "id": 4, "title": "Iwai" },
         { "id": 5, "title": "Honda" },
         { "id": 6, "title": "Furuichi" },
-        { "id": 7, "title": "Imai" },
+        { "id": 7, "title": "Itami" },
         { "id": 8, "title": "Fujieda" },
         { "id": 9, "title": "Oka" },
         { "id": 10, "title": "Hasegawa" },

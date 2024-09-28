@@ -3,13 +3,14 @@
 import Image from "next/image"
 import styles from "./Picture.module.scss"
 import { useState } from "react";
+import { forwardRef } from "react";
 
 interface ImgProps {
   img1: string;
   img2: string;
 }
 
-export const Picture = ({img1, img2}: ImgProps) => {
+export const Picture = forwardRef<HTMLDivElement, ImgProps>(({ img1, img2 }, ref)  => {
 
   const [isHover, setIsHover] = useState(false);
 
@@ -22,7 +23,7 @@ export const Picture = ({img1, img2}: ImgProps) => {
   }
 
   return (
-    <div className={styles.imgCont} onMouseEnter={imgHover} onMouseLeave={imgHoverReset}>
+    <div className={styles.imgCont} onMouseEnter={imgHover} onMouseLeave={imgHoverReset} ref={ref}>
       <Image src={img1} alt="写真" width={300} height={200}
         className={`${styles.img1} ${isHover? styles.img1Hover: styles.resetPic}`} >
       </Image>
@@ -31,4 +32,7 @@ export const Picture = ({img1, img2}: ImgProps) => {
       </Image>
     </div>
   )
-}
+});
+
+// コンポーネントをエクスポート
+Picture.displayName = 'Pcture'; 

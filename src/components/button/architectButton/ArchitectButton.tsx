@@ -1,3 +1,5 @@
+"use client";
+
 import styles from "./ArchitectButton.module.scss"
 
 interface ArchitectButtonProps {
@@ -6,9 +8,10 @@ interface ArchitectButtonProps {
     dataArchitect?: string | string[];
     dataArchitectId?: number;
     className?: string;
+    onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
   }
 
-export const ArchitectButton = ({children, architect, dataArchitect, dataArchitectId}: ArchitectButtonProps) => {
+export const ArchitectButton = ({children, architect, dataArchitect, dataArchitectId, onClick}: ArchitectButtonProps) => {
 
   return (
     <p className={styles.architect}>Architect:
@@ -16,11 +19,9 @@ export const ArchitectButton = ({children, architect, dataArchitect, dataArchite
         {Array.isArray(architect) ? 
           architect.map((text, index) => {
             return (
-              <button type="button" key={index} className={styles.container}>
-                <span className={styles.span}
-                  data-architect={text} // 修正: architect配列内のtextを直接使用
-                  data-id={`${dataArchitectId}-${index}`} // 修正: 各ボタンに異なるIDを付与
-                >
+              <button type="button" data-architect={text} data-architect-id={`${dataArchitectId}-${index}`}
+                key={index} className={styles.container} onClick={onClick}>
+                <span className={styles.span}>
                   {text}
                 </span>
                 <span className={styles.mark}>
@@ -29,7 +30,8 @@ export const ArchitectButton = ({children, architect, dataArchitect, dataArchite
               </button>
             )
           })
-        : <button type="button" data-architect={dataArchitect} data-id={dataArchitectId} className={styles.singleBtn}>
+        : <button type="button" data-architect={dataArchitect} data-id={dataArchitectId} 
+            onClick={onClick} className={styles.singleBtn}>
             {architect || children}
           </button>}
       </span>

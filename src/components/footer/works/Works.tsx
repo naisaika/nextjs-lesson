@@ -1,11 +1,13 @@
 import { CategoryButton } from "@/components/button/categoryButton/CategoryButton"
 import styles from "./Works.module.scss"
-import { getArchitectData, getCategoryData } from "@/api/apiData";
+import { useLayoutContext } from "@/provider/LayoutProvider";
 
-export const Works = async() => {
+interface onClickProps {
+    onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
+}
 
-    const getCategory = await getCategoryData();
-    const getArchitect = await getArchitectData();
+export const Works = ({onClick}: onClickProps) => {
+    const {getCategory, getArchitect} = useLayoutContext();
 
   return (
     <div className={styles.worksSec}>
@@ -15,7 +17,10 @@ export const Works = async() => {
                 {getCategory.map((category) => {
                     return(
                         <li key={category.id}>
-                            <CategoryButton className={styles.footerCategoryBtn}>{category.title}</CategoryButton>
+                            <CategoryButton 
+                                dataCategory={category.title} dataCategoryId={category.id}
+                                className={styles.footerCategoryBtn}
+                                onClick={onClick}>{category.title}</CategoryButton>
                         </li>
                     )
                 })}
@@ -27,7 +32,10 @@ export const Works = async() => {
                 {getArchitect.map((arcihtect) => {
                     return(
                         <li key={arcihtect.id}>
-                            <CategoryButton className={styles.footerCategoryBtn}>{arcihtect.title}</CategoryButton>
+                            <CategoryButton 
+                                dataArchitect={arcihtect.title} dataArchitectId={arcihtect.id}
+                                className={styles.footerCategoryBtn}
+                                onClick={onClick}>{arcihtect.title}</CategoryButton>
                         </li>
                     )
                 })}
