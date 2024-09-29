@@ -11,13 +11,16 @@ import { DataType } from "@/api/dataType";
 interface onClickProps {
     onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
     clickedCategory?: string;
-    clickedArchitect?: string;
+    clickedArchitect?: string | string[];
 }
 
 export const WorksPicture = ({onClick, clickedCategory, clickedArchitect}: onClickProps) => {
     
     const [allPictureData, setAllPictureData] = useState<DataType[]>([]);
-    const cardListRef = useRef<HTMLElement[]>([]);
+    const cardListRef = useRef<(HTMLLIElement | null)[]>([]);
+    const initialPositionMap = useRef(new Map()); // useRefで初期位置を保持
+    const prevList = useRef(new Map()); // useRefで前の位置を保持
+    const positionMap = useRef(new Map()); // useRefで現在位置を保持
 
     useEffect(() => {
         const fetchData = async () => {
@@ -30,132 +33,143 @@ export const WorksPicture = ({onClick, clickedCategory, clickedArchitect}: onCli
 
       const filterCard = allPictureData.filter((data) => {
         const matchedCategory = clickedCategory ? data.category === clickedCategory : true;
+      
         const matchedArchitect = clickedArchitect && typeof clickedArchitect === 'string'
-          ? data.architect.includes(clickedArchitect)
+          ? Array.isArray(data.architect)
+            ? (data.architect as string[]).includes(clickedArchitect) // architectが配列の場合
+            : data.architect === clickedArchitect                    // architectが文字列の場合
           : true;
+      
         return matchedCategory && matchedArchitect;
       });
 
       useEffect(() => {
         const flipAnimation = () => {
-          const prevList = new Map();
-      
+
+          if (initialPositionMap.current.size === 0) {
+            cardListRef.current.forEach((card, index) => {
+              if (!card) return;
+              const id = allPictureData[index]?.id;
+              const style = card.getBoundingClientRect();
+              initialPositionMap.current.set(id, style); // 初期位置を保存
+            });
+          }
+
           // 1. 現在の要素の位置を保存
           cardListRef.current.forEach((card) => {
+            if(!card) return;
               const id = card.dataset.id;
               const style = card.getBoundingClientRect();
-              prevList.set(id, style);
+              prevList.current.set(id, style);
           });
       
           // 2. 要素の表示・非表示を切り替え
           cardListRef.current.forEach((card) => {
+            if (!card) return;
             const category = card.dataset.category;
             const architect = card.dataset.architect;
           
-            // category と architect 両方に基づいてフィルタリング
-            const shouldBeVisible = filterCard.some((data) => {
-              const matchedCategory = data.category === category;
-              const matchedArchitect = data.architect === architect;  // architectが一致するかどうかも確認
-              return matchedCategory && matchedArchitect;  // 両方の条件を満たすか
-            });
+            // card.dataset.architectがカンマ区切りの文字列なら配列に変換
+            const architectList = architect ? architect.split(',').map(a => a.trim()) : [];
           
+            // category と architect 両方に基づいてフィルタリング
+            const showCard = filterCard.some((data) => {
+              const matchedCategory = data.category === category;
+          
+              // architectが配列の場合はincludesで確認、文字列なら直接比較
+              const matchedArchitect = architectList.length > 0
+                ? Array.isArray(data.architect)
+                  ? architectList.some(a => (data.architect as string[]).includes(a))
+                  : architectList.includes(data.architect)                         
+                : true;
+          
+              console.log('Architect一致:', matchedArchitect);
+          
+              return matchedCategory && matchedArchitect;  
+            });
+    
             // 表示・非表示を切り替え
-            card.classList.toggle("hidden", !shouldBeVisible);
+            const hiddenCard = card.classList.contains("WorksPicture_hidden__ipmON");
+
+            if (!showCard && !hiddenCard) {
+              card.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 1000 });
+            } 
+    
+            // アニメーションを適用
+    
+            if (!showCard && !hiddenCard) {
+              card.classList.toggle("WorksPicture_hidden__ipmON");
+            }
+    
+            if (hiddenCard) {
+              card.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 1000 });
+            }
           });
-      
+    
           // 3. レイアウトの確定を待つためにrequestAnimationFrameを使用
           requestAnimationFrame(() => {
             cardListRef.current.forEach((card) => {
+              if (!card) return;
+              const id = card.dataset.id;
               const next = card.getBoundingClientRect();
-              const prev = prevList.get(card.dataset.id);
-      
-              console.log("next.x:", next.x);
-              console.log("prev.x:", prev ? prev.x : 'undefined');
-              console.log("next.y:", next.y);
-              console.log("prev.y:", prev ? prev.y : 'undefined');
-      
+              const prev = initialPositionMap.current.get(id) || prevList.current.get(id) || positionMap.current.get(id);
+    
               // 4. 非表示から表示される要素のアニメーションを適用
-              if (!prev || prev.width === 0) {
-                // 画面に再表示される要素のアニメーション（下から上へフェードイン）
-                card.animate(
-                  [
-                    { opacity: 0, transform: "translateY(100px)" }, // 100px下からスタート
-                    { opacity: 1, transform: "translateY(0)" }, // 画面内の正しい位置へ
-                  ],
-                  { duration: 500, easing: "ease-out" }
-                );
-                return;
+              if (prev && !card.classList.contains("WorksPicture_hidden__ipmON")) {
+
+                // 初回の位置から表示後の位置までのアニメーション
+                card.animate([{
+                  transform: `translate(${prev.x - next.x}px, ${prev.y - next.y}px)`,
+                },
+                {
+                  transform: "translate(0, 0)",
+                }], {
+                  duration: 800,
+                  easing: "cubic-bezier(.45,.15,0,1.02)",
+                });
               }
-      
-              // 5. 移動アニメーションを適用
-              const deltaX = prev.x - next.x;
-              const deltaY = prev.y - next.y;
-      
-              // prevが存在する場合のみアニメーションを適用
-              if (prev) {
-                card.animate(
-                  [
-                    {
-                      transform: `translate(${deltaX}px, ${deltaY}px)`,
-                    },
-                    {
-                      transform: "translate(0, 0)",
-                    },
-                  ],
-                  {
-                    duration: 500,
-                    easing: "cubic-bezier(0.22, 1, 0.36, 1)",
-                  }
-                );
-              }
+    
+              // 表示後の位置を保存
+              positionMap.current.set(id, next);
             });
           });
         };
-      
+    
         flipAnimation();
-    }, [filterCard, clickedCategory, clickedArchitect, allPictureData]);
+      }, [filterCard, clickedCategory, clickedArchitect, allPictureData]);
 
-  return (
-    <div>
-        <ul className={styles.dataList}>
-            {filterCard.map((data) => {
-
-                return (
-                    <li key={data.id} className={styles.listDetail} 
+      return (
+        <div>
+          <ul className={styles.dataList}>
+            {allPictureData.map((data, index) => {
+              // フィルタリングされたデータだけを表示する
+              const isVisible = filterCard.some(item => item.id === data.id);
+    
+              return (
+                <li key={data.id} className={`${styles.listDetail} ${!isVisible ? styles.hidden : ''}`}
                     data-id={data.id} data-category={data.category} data-architect={data.architect}
-                    ref={(el) => {
-                        if (el) cardListRef.current[data.id] = el; // 参照を保存
-                    }}
->                        <Picture                                 
-                        img1={data.img1} img2={data.img2}></Picture>
-                        <h3 className={styles.dataTitle}>{Array.isArray(data.title)?
-                            data.title.map((text, index) => {
-                                return (
-                                    <span key={index}>{text}</span>
-                                )
-                            }): data.title}
-                        </h3>
-                        {data.subTitle && <p className={styles.dataSubTitle}>
-                            {Array.isArray(data.subTitle)? 
-                            data.subTitle.map((text, index) => {
-                                return (
-                                    <span key={index}>{text}</span>
-                                )
-                            }): data.subTitle}</p>}
-                        <p className={styles.category}>Category: 
-                            <CategoryButton dataCategory={data.category} dataCategoryId={data.id}
-                                onClick={onClick}
-
-                                >{data.category}</CategoryButton>
-                        </p>
-                        {data.architect && 
-                            <ArchitectButton dataArchitect={data.architect} dataArchitectId={data.id} 
-                                architect={data.architect} onClick={onClick}></ArchitectButton>}
-                    </li>
-                )
+                    ref={(el) => { cardListRef.current[index] = el; }}>
+                  <Picture img1={data.img1} img2={data.img2}></Picture>
+                  <h3 className={styles.dataTitle}>{Array.isArray(data.title) ?
+                    data.title.map((text, index) => <span key={index}>{text}</span>) : data.title}
+                  </h3>
+                  {data.subTitle && <p className={styles.dataSubTitle}>
+                    {Array.isArray(data.subTitle) ?
+                      data.subTitle.map((text, index) => <span key={index}>{text}</span>) : data.subTitle}</p>}
+                  <p className={styles.category}>
+                    Category:
+                    <CategoryButton dataCategory={data.category} dataCategoryId={data.id} onClick={onClick}>
+                      {data.category}
+                    </CategoryButton>
+                  </p>
+                  {data.architect && 
+                    <ArchitectButton dataArchitect={data.architect} dataArchitectId={data.id} 
+                        architect={data.architect} onClick={onClick}></ArchitectButton>}
+                </li>
+              );
             })}
-        </ul>
-    </div>
-  )
-}
+          </ul>
+        </div>
+      );
+    };
 
