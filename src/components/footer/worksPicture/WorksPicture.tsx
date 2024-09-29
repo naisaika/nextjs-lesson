@@ -75,15 +75,8 @@ export const WorksPicture = ({onClick, clickedCategory, clickedArchitect}: onCli
               console.log("prev.y:", prev ? prev.y : 'undefined');
       
               // 4. 非表示から表示される要素のアニメーションを適用
-              if (!prev || prev.width === 0) {
-                // 画面に再表示される要素のアニメーション（下から上へフェードイン）
-                card.animate(
-                  [
-                    { opacity: 0, transform: "translateY(100px)" }, // 100px下からスタート
-                    { opacity: 1, transform: "translateY(0)" }, // 画面内の正しい位置へ
-                  ],
-                  { duration: 500, easing: "ease-out" }
-                );
+              if(prev.width === 0){
+                card.animate([{opacity: 0}, {opacity: 1}], {duration: 200});
                 return;
               }
       
