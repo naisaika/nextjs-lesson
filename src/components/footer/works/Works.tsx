@@ -7,7 +7,7 @@ interface onClickProps {
 }
 
 export const Works = ({onClick}: onClickProps) => {
-    const {getCategory, getArchitect} = useLayoutContext();
+    const { getCategory, getArchitect } = useLayoutContext();
 
   return (
     <div className={styles.worksSec}>

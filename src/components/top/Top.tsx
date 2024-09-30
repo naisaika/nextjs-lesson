@@ -5,10 +5,8 @@ import styles from "./Top.module.scss"
 import { WorkButton } from "../button/workbutton/WorkButton";
 import { TopH1 } from "./topH1/TopH1";
 import { TopBgImgCaption } from "./topBgImgCaption/TopBgImgCaption";
-import { useEffect, useState } from "react";
-import { CategoryType } from "@/api/dataType";
-import { ArchitectType } from "@/api/dataType";
-import { getArchitectData, getCategoryData } from "@/api/apiData";
+import { useState } from "react";
+import { useLayoutContext } from "@/provider/LayoutProvider";
 
 interface Img {
     id: number;
@@ -26,33 +24,7 @@ const BG_IMG: Img[] = [
 export const Top = () => {
 
     const [hoverImg, setHoverImg] = useState<number | null>(null);
-    const [categoryData, setCategoryData] = useState<CategoryType[]>([]);
-    const [architectData, setArchitectData] = useState<ArchitectType[]>([]);
-
-    useEffect(() => {
-      const getCategory = async () => {
-        try {
-          const data = await getCategoryData();
-          setCategoryData(data);
-        } catch (error) {
-          console.error("エラーが発生しました。", error);
-        }
-      };
-      getCategory();
-    }, []);
-    
-    useEffect(() => {
-      const architectData = async () => {
-        try {
-          const data = await getArchitectData();
-          setArchitectData(data);
-          
-        } catch (error) {
-          console.error("エラーが発生しました。", error);
-        }
-      };
-      architectData();
-    }, []); 
+    const { getCategory, getArchitect, hiddenWorkBtn, workBtnRef } = useLayoutContext();
 
     const onMouseHoverImg = (imgId: number) => {
         setHoverImg(imgId);
@@ -61,7 +33,7 @@ export const Top = () => {
     const removeHoverImg = () => {
         setHoverImg(null);
     }
-    
+
     return (
         <>
             <TopH1/>
@@ -80,13 +52,13 @@ export const Top = () => {
                                 priority 
                                 className={styles.bgImg}>
                             </Image>
-                            <TopBgImgCaption categoryData={categoryData} architectData={architectData}
+                            <TopBgImgCaption categoryData={getCategory} architectData={getArchitect}
                                 imgId={img.id} mouseHover={hoverImg === img.id}/>
                         </li>
                     )
                 })}
             </ul>
-            <WorkButton/>
+            <WorkButton hiddenWorkBtn={hiddenWorkBtn} ref={workBtnRef}/>
         </>
     )
 }

@@ -3,10 +3,12 @@ import styles from "./TopBgImgCaption.module.scss"
 import { CategoryButton } from "@/components/button/categoryButton/CategoryButton";
 import { CategoryType } from "@/api/dataType";
 import { ArchitectType } from "@/api/dataType";
+import { useLayoutContext } from "@/provider/LayoutProvider"; 
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 interface imgIdProps {
   imgId: number;
-  mouseHover: boolean;
+  mouseHover: boolean; 
   categoryData:  CategoryType[];
   architectData: ArchitectType[];
 }
@@ -48,14 +50,15 @@ const TOP_CAPTION_LIST = [
 
 export const TopBgImgCaption = ({imgId, mouseHover, categoryData, architectData}: imgIdProps) => {
 
+  const { handleClickBtn } = useLayoutContext();
+
   const caption = TOP_CAPTION_LIST.find((imgid) => imgId === imgid.id);
   if(!caption) return null
 
-  const matchCategory = categoryData.find((category) => category.id === caption.id);
- 
+  const matchCategory = categoryData.find((category) => Number(category.id) === caption.id);
   if (!matchCategory) return null;
 
-  const matchArchitect = architectData.find((architect) => architect.id === caption.id);
+  const matchArchitect = architectData.find((architect) => Number(architect.id) === caption.id);
   if (!matchArchitect) return null;
 
   return (
@@ -73,10 +76,14 @@ export const TopBgImgCaption = ({imgId, mouseHover, categoryData, architectData}
       </p>
       <span className={styles.line}></span>
       <p className={styles.category}>Category: 
-        <CategoryButton dataCategory={caption.category} dataCategoryId={matchCategory.id}>{caption.category}</CategoryButton>
+        <AnchorLink href="#footer" onClick={"footer"}>
+          <CategoryButton dataCategory={caption.category} dataCategoryId={matchCategory.id}
+            onClick={handleClickBtn}>{caption.category}</CategoryButton>
+        </AnchorLink>
       </p>
       {caption.architect &&
-        <ArchitectButton dataArchitect={caption.architect} dataArchitectId={matchArchitect.id} architect={caption.architect}></ArchitectButton>
+        <ArchitectButton dataArchitect={caption.architect} dataArchitectId={matchArchitect.id} 
+          onClick={handleClickBtn} architect={caption.architect}></ArchitectButton>
       }
     </div>
   )

@@ -13,12 +13,14 @@
     "json-server": "^1.0.0-beta.2",
     "next": "14.2.13",
     "react": "^18",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18",
     "sass": "^1.79.3"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
+    "@types/react-anchor-link-smooth-scroll": "^1.0.5",
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.13",

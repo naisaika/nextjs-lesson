@@ -7,6 +7,7 @@ import { Picture } from "./picture/Picture";
 import { ArchitectButton } from "@/components/button/architectButton/ArchitectButton";
 import { useEffect, useRef, useState } from "react";
 import { DataType } from "@/api/dataType";
+import { useMemo } from "react";
 
 interface onClickProps {
     onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
@@ -31,17 +32,18 @@ export const WorksPicture = ({onClick, clickedCategory, clickedArchitect}: onCli
         fetchData();
       }, []);
 
-      const filterCard = allPictureData.filter((data) => {
-        const matchedCategory = clickedCategory ? data.category === clickedCategory : true;
-      
-        const matchedArchitect = clickedArchitect && typeof clickedArchitect === 'string'
-          ? Array.isArray(data.architect)
-            ? (data.architect as string[]).includes(clickedArchitect) // architectが配列の場合
-            : data.architect === clickedArchitect                    // architectが文字列の場合
-          : true;
-      
-        return matchedCategory && matchedArchitect;
-      });
+      const filterCard = useMemo(() => {
+        return allPictureData.filter((data) => {
+            const matchedCategory = clickedCategory ? data.category === clickedCategory : true;
+            const matchedArchitect = clickedArchitect && typeof clickedArchitect === 'string'
+                ? Array.isArray(data.architect)
+                    ? (data.architect as string[]).includes(clickedArchitect)
+                    : data.architect === clickedArchitect
+                : true;
+    
+            return matchedCategory && matchedArchitect;
+        });
+    }, [allPictureData, clickedCategory, clickedArchitect]);
 
       useEffect(() => {
         const flipAnimation = () => {
@@ -82,8 +84,6 @@ export const WorksPicture = ({onClick, clickedCategory, clickedArchitect}: onCli
                   ? architectList.some(a => (data.architect as string[]).includes(a))
                   : architectList.includes(data.architect)                         
                 : true;
-          
-              console.log('Architect一致:', matchedArchitect);
           
               return matchedCategory && matchedArchitect;  
             });
