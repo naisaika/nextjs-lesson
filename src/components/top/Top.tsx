@@ -64,8 +64,8 @@ export const Top = () => {
     
     return (
         <>
-            <TopH1/>
-            <ul className={styles.bgImgList}>
+          <TopH1/>
+          <ul className={styles.bgImgList}>
                 {BG_IMG.map((img, index) => {
                     return (
                         <li key={img.id}
