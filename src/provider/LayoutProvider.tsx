@@ -57,10 +57,13 @@ export const LayoutContext = createContext<{
 
     useEffect(() => {
       const handleScroll = () => {
-        if (workBtnRef.current && footerRef.current) {
-          const workBtnTop = workBtnRef.current.getBoundingClientRect().top;
-          const footerTop = footerRef.current.getBoundingClientRect().top;
-          if (workBtnTop > footerTop) {
+        if (workBtnRef && workBtnRef.current && footerRef && footerRef.current) {
+          // ボタンの位置 (7% from the bottom of the viewport)
+          const workBtnBottomPosition = window.innerHeight * 0.93; // 93% (bottom 7%)
+          const footerTopPosition = footerRef.current.getBoundingClientRect().top;
+
+          // ボタンの位置がフッターの上部に達したら非表示にする
+          if (workBtnBottomPosition >= footerTopPosition) {
             setHiddenWorkBtn(true);
           } else {
             setHiddenWorkBtn(false);

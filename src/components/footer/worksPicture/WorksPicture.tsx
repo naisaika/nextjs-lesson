@@ -15,7 +15,7 @@ interface onClickProps {
     clickedArchitect?: string | string[];
 }
 
-export const WorksPicture = ({onClick, clickedCategory, clickedArchitect}: onClickProps) => {
+export const WorksPicture = ({clickedCategory, clickedArchitect}: onClickProps) => {
     
     const [allPictureData, setAllPictureData] = useState<DataType[]>([]);
     const cardListRef = useRef<(HTMLLIElement | null)[]>([]);
@@ -158,13 +158,16 @@ export const WorksPicture = ({onClick, clickedCategory, clickedArchitect}: onCli
                       data.subTitle.map((text, index) => <span key={index}>{text}</span>) : data.subTitle}</p>}
                   <p className={styles.category}>
                     Category:
-                    <CategoryButton dataCategory={data.category} dataCategoryId={data.id} onClick={onClick}>
+                    <CategoryButton dataCategory={data.category} dataCategoryId={data.id}>
                       {data.category}
                     </CategoryButton>
                   </p>
                   {data.architect && 
-                    <ArchitectButton dataArchitect={data.architect} dataArchitectId={data.id} 
-                        architect={data.architect} onClick={onClick}></ArchitectButton>}
+                    <p className={styles.architect}>
+                      Architect:
+                      <ArchitectButton dataArchitect={data.architect} dataArchitectId={data.id} 
+                        architect={data.architect}></ArchitectButton>
+                    </p> }
                 </li>
               );
             })}

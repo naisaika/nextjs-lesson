@@ -1,10 +1,12 @@
+"use client";
+
 import { ArchitectButton } from "@/components/button/architectButton/ArchitectButton";
 import styles from "./TopBgImgCaption.module.scss"
 import { CategoryButton } from "@/components/button/categoryButton/CategoryButton";
 import { CategoryType } from "@/api/dataType";
 import { ArchitectType } from "@/api/dataType";
-import { useLayoutContext } from "@/provider/LayoutProvider"; 
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import { Link, Events } from "react-scroll";
+import { useState, useEffect } from "react";
 
 interface imgIdProps {
   imgId: number;
@@ -24,7 +26,7 @@ const TOP_CAPTION_LIST = [
     title: "Dance of light",
     subTitle: "",
     category: "Shared Space",
-    architect: "Toril"
+    architect: "Torii"
   },
   { id: 2,
     title: "MAZDA MX-30 TVCM",
@@ -50,7 +52,28 @@ const TOP_CAPTION_LIST = [
 
 export const TopBgImgCaption = ({imgId, mouseHover, categoryData, architectData}: imgIdProps) => {
 
-  const { handleClickBtn } = useLayoutContext();
+  const [, setIsScrolling] = useState(false);
+
+  useEffect(() => {
+
+    const handleScrollStart = () => {
+      setIsScrolling(true);
+      document.body.classList.add(styles.loading);
+    };
+
+    const handleScrollEnd = () => {
+      setIsScrolling(false);
+      document.body.classList.remove(styles.loading);
+    };
+
+    Events.scrollEvent.register("begin", handleScrollStart);
+    Events.scrollEvent.register("end", handleScrollEnd);
+
+    return () => {
+      Events.scrollEvent.remove("begin");
+      Events.scrollEvent.remove("end");
+    };
+  }, []);
 
   const caption = TOP_CAPTION_LIST.find((imgid) => imgId === imgid.id);
   if(!caption) return null
@@ -76,15 +99,20 @@ export const TopBgImgCaption = ({imgId, mouseHover, categoryData, architectData}
       </p>
       <span className={styles.line}></span>
       <p className={styles.category}>Category: 
-        <AnchorLink href="#footer" onClick={"footer"}>
-          <CategoryButton dataCategory={caption.category} dataCategoryId={matchCategory.id}
-            onClick={handleClickBtn}>{caption.category}</CategoryButton>
-        </AnchorLink>
+        <Link to="footer" smooth={true} duration={1000}>
+          <CategoryButton dataCategory={caption.category} dataCategoryId={matchCategory.id}>
+            {caption.category}
+          </CategoryButton>
+        </Link>
       </p>
-      {caption.architect &&
-        <ArchitectButton dataArchitect={caption.architect} dataArchitectId={matchArchitect.id} 
-          onClick={handleClickBtn} architect={caption.architect}></ArchitectButton>
-      }
+        {caption.architect &&
+          <p className={styles.architect}>Architect:
+            <Link to="footer" smooth={true} duration={1000}>
+              <ArchitectButton dataArchitect={caption.architect} dataArchitectId={matchArchitect.id} 
+                architect={caption.architect}>
+              </ArchitectButton>
+            </Link>
+          </p>}
     </div>
   )
 }

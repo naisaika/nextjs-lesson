@@ -1,5 +1,6 @@
 import styles from "./CategoryButton.module.scss"
 import { forwardRef } from "react";
+import { useLayoutContext } from "@/provider/LayoutProvider"; 
 
 interface childrenProps {
     children: React.ReactNode;
@@ -8,11 +9,12 @@ interface childrenProps {
     dataCategoryId?: number;
     dataArchitect?: string;
     dataArchitectId?: number;
-    onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
 export const CategoryButton = forwardRef<HTMLButtonElement, childrenProps>(
-  ({ children, className, dataCategory, dataCategoryId, dataArchitect, dataArchitectId, onClick }, ref)  => {
+  ({ children, className, dataCategory, dataCategoryId, dataArchitect, dataArchitectId }, ref)  => {
+
+    const { handleClickBtn } = useLayoutContext();
 
   return (
     <button type="button" ref={ref} className={`${styles.categoryBtn} ${className}` } 
@@ -20,7 +22,7 @@ export const CategoryButton = forwardRef<HTMLButtonElement, childrenProps>(
       {...(dataCategoryId !== undefined && dataCategoryId !== null && { "data-category-id": dataCategoryId })}
       {...(dataArchitect && {"data-architect": dataArchitect})}
       {...(dataArchitectId !== undefined && dataArchitectId !== null && { "data-architect-id": dataArchitectId })}
-      onClick={onClick}>{children}
+      onClick={handleClickBtn}>{children}
     </button>
   )
 })

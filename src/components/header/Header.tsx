@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Navi } from "../nav/Navi"
 import styles from "./Header.module.scss"
+import { Element } from "react-scroll";
 
 export const Header = () => {
 
@@ -32,7 +33,8 @@ export const Header = () => {
       }, []);
 
   return (
-    <section className={styles.headerSec} ref={headerRef}>
+    <Element name="header">
+      <section className={styles.headerSec} ref={headerRef}>
         <div className={styles.headerCont}>
         <div className={`${styles.navSec} ${isfixed ? styles.fixed : ""}`}>
             <Navi />
@@ -43,6 +45,7 @@ export const Header = () => {
                 <p>연락처</p>
             </div>
         </div>
-    </section>
+      </section>
+    </Element>
   )
 }

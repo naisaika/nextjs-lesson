@@ -1,8 +1,7 @@
 .footerSec {
-    width: 100%;
+    width: 100vw;
     text-align: center;
-    z-index: 1;
-    padding: 80px 0;
+    padding: 80px 0 0;
     background-color: #e5e5da;
     margin-top: 40px;
     .footerWorkBtn {
@@ -12,5 +11,29 @@
             background-color: transparent !important;
         }
     }
+}
+
+.backTopBtn {
+    display: inline-block;
+    margin: 32px auto 48px;
+    .topImg {
+        cursor: pointer;
+    }
+}
+
+.loading {
+    opacity: 0.3;
+    transition: opacity 0.5s ease;
+}
+
+.copyright {
+    font-family: "Times New Roman", "游明朝", "YuMincho", "Hiragino Mincho ProN", "Meiryo", "serif";
+    letter-spacing: 0.02em;
+    background-color: #fff;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px;
 }
 

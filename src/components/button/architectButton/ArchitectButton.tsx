@@ -1,6 +1,7 @@
 "use client";
 
 import styles from "./ArchitectButton.module.scss"
+import { useLayoutContext } from "@/provider/LayoutProvider"; 
 
 interface ArchitectButtonProps {
     children?: React.ReactNode; // childrenを追加
@@ -8,19 +9,20 @@ interface ArchitectButtonProps {
     dataArchitect?: string | string[];
     dataArchitectId?: number;
     className?: string;
-    onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
   }
 
-export const ArchitectButton = ({children, architect, dataArchitect, dataArchitectId, onClick}: ArchitectButtonProps) => {
+export const ArchitectButton = ({children, architect, dataArchitect, dataArchitectId }: ArchitectButtonProps) => {
+
+  const { handleClickBtn } = useLayoutContext();
 
   return (
-    <p className={styles.architect}>Architect:
+
       <span className={styles.architectBtn}>
         {Array.isArray(architect) ? 
           architect.map((text, index) => {
             return (
               <button type="button" data-architect={text} data-architect-id={`${dataArchitectId}-${index}`}
-                key={index} className={styles.container} onClick={onClick}>
+                key={index} className={styles.container} onClick={handleClickBtn}>
                 <span className={styles.span}>
                   {text}
                 </span>
@@ -31,10 +33,9 @@ export const ArchitectButton = ({children, architect, dataArchitect, dataArchite
             )
           })
         : <button type="button" data-architect={dataArchitect} data-id={dataArchitectId} 
-            onClick={onClick} className={styles.singleBtn}>
+            onClick={handleClickBtn} className={styles.singleBtn}>
             {architect || children}
           </button>}
       </span>
-    </p>
   )
 }

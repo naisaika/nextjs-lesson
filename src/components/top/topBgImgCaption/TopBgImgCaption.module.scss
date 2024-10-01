@@ -33,6 +33,11 @@
         letter-spacing: 0.05em;
         display: flex;
     }
+    .architect {
+        font-size: 13px;
+        letter-spacing: 0.05em;
+        display: flex;
+    }
 }
 
 .imgHover {
@@ -66,4 +71,9 @@
         opacity: 0;
         transform: translateY(200px); 
     }
+}
+
+.loading {
+    opacity: 0.3;
+    transition: opacity 0.5s ease;
 }
