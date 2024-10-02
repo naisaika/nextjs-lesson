@@ -1,5 +1,5 @@
-import styles from "./workButton.module.scss"
-import { forwardRef } from "react"
+import styles from "./workButton.module.scss";
+import { forwardRef } from "react";
 
 interface WorkButtonProps {
   className?: string;
