@@ -7,10 +7,10 @@ interface NaviItems {
 }
 
 const NABI_ITEMS : NaviItems[] = [
-    {text: "TOP", href: "#"},
+    {text: "TOP", href: "/"},
     {text: "NEWS", href: "#"},
-    {text: "VISION", href: "#"},
-    {text: "RECRUIT", href: "#"},
+    {text: "VISION", href: "/vision"},
+    {text: "RECRUIT", href: "/recruit"},
     {text: "ABOUT US", href: "#"},
     {text: "ACCESS", href: "#"},
 ]
