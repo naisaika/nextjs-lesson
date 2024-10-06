@@ -43,7 +43,7 @@ export const Footer = () => {
   };
 
   return (
-    <Element name="footer">
+    <Element name="footer" className={styles.footerDiv}>
       <section className={styles.footerSec} ref={footerRef} id="footer">
         <div className={styles.worksCont}>
           <WorkButton className={styles.footerWorkBtn}/>

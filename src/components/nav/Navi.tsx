@@ -11,7 +11,7 @@ const NABI_ITEMS : NaviItems[] = [
     {text: "NEWS", href: "#"},
     {text: "VISION", href: "/vision"},
     {text: "RECRUIT", href: "/recruit"},
-    {text: "ABOUT US", href: "#"},
+    {text: "ABOUT US", href: "/aboutus"},
     {text: "ACCESS", href: "#"},
 ]
 

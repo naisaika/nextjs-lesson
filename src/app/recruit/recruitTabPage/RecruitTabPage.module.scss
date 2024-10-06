@@ -1,0 +1,52 @@
+.tabPageCont {
+    font-family: "Times New Roman", "游明朝", "YuMincho", "Hiragino Mincho ProN", "Meiryo", "serif";
+    font-weight: 400;
+    margin-bottom: 24px;
+    .description {
+        font-weight: 500;
+        margin-top: 0;
+    }
+}
+
+.tabPageCont h2 {
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.tabPageCont h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 8px 0;
+}
+
+.tabPageCont p {
+    margin: 8px 0;
+    line-height: 2;
+    font-size: 14px;
+    letter-spacing: .13em;
+}
+
+.dlCont {
+    margin-bottom: 144px;
+}
+
+.tabPageCont dl {
+    margin: 0;
+}
+
+.tabPageCont dt {
+    margin: 0;
+    line-height: 2;
+    font-size: 14px;
+    letter-spacing: .13em;
+    font-weight: 500;
+}
+
+.tabPageCont dd {
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .1em;
+    text-align: justify;
+    line-height: 2.2;
+}

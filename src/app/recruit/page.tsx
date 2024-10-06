@@ -1,7 +1,11 @@
+import { RecruitTab } from '@/components/recruitTab/RecruitTab'
+import styles from "./Recruit.module.scss"
 
 const Recruit = () => {
   return (
-    <div>page</div>
+    <div className={styles.sectionWrapper}>
+      <RecruitTab isRecruit={false}/>
+    </div>
   )
 }
 
