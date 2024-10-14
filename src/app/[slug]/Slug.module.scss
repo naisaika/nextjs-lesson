@@ -1,0 +1,48 @@
+.titleCont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 3%;
+    &::before {
+        content: "";
+        width: 100px;
+        height: 100px;
+        background-color: transparent;
+        display: inline-block;
+    }
+    .title {
+        margin: 0;
+        font-weight: 300;
+        font-family: "Times New Roman", "游明朝", "YuMincho", "Hiragino Mincho ProN", "Meiryo", "serif";
+        letter-spacing: 0.05em;
+    }
+    .detailBtn {
+        background-color: #fff;
+        border: solid 1px #000;
+        padding: 5px 10px;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 12px;
+        margin-top: 8px;
+    }
+}
+
+.picCont {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    .video {
+        width: 100vw;
+        height: auto;
+    }
+    .pic {
+        height: auto;
+    }
+    .width {
+        width: 100vw !important;
+    }
+    .height {
+        width: 40vw !important;
+        margin: 0 auto !important;
+    }
+}

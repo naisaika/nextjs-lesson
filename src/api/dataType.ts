@@ -5,7 +5,14 @@ export interface DataType {
     title: string, 
     subTitle: string | [],
     category: string,
-    architect: string | []
+    architect: string | [],
+    url: string;
+    video?: string;
+    picture?: string[];
+    date?: string;
+    location?: string;
+    web?: string;
+    photographer?: string;
 }
 
 export interface CategoryType {

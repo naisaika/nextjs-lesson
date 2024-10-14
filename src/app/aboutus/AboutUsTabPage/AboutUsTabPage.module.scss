@@ -1,0 +1,27 @@
+.aboutUsSection {
+    font-family: "Times New Roman", "游明朝", "YuMincho", "Hiragino Mincho ProN", "Meiryo", "serif";
+    margin-bottom: 48px;
+    .name {
+        font-size: 22px;
+        margin-top: 8px;
+        letter-spacing: 0.05em;
+    }
+    .year {
+        font-weight: 600;
+    }
+}
+
+.aboutUsSection h3 {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin-bottom: 12px;
+}
+
+.aboutUsSection p {
+    line-height: 2.1;
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: .12em;
+}
+

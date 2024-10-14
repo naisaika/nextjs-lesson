@@ -3,6 +3,7 @@
 import { useState } from "react";
 import styles from "./RecruitTab.module.scss";
 import { RECRUIT_TAB_PAGE } from "@/app/recruit/recruitTabPage/RecruitTabPage";
+import { ABOUT_TAB_PAGE } from "@/app/aboutus/AboutUsTabPage/AboutUsTabPage";
 
 const RECRUIT_TAB = [
     {id: 0, tabName: "働き方について"},
@@ -27,32 +28,39 @@ interface isRecruitType {
     isRecruit: boolean;
 }
 
-export const RecruitTab = ({isRecruit}: isRecruitType) => {
-    const [activeRecruitTab, setActiveRecruitTab] = useState(RECRUIT_TAB[0]);
-    const [activeAboutTab, setActiveAboutTab] = useState(ABOUT_TAB[0]);
+export const RecruitTab = ({ isRecruit }: isRecruitType) => {
 
-    const activePage = isRecruit? 
-        RECRUIT_TAB_PAGE.find((page) => page.id === activeRecruitTab.id)
-        : ABOUT_TAB_PAGE.find((page) => page.id === activeAboutTab.id)
-   
+    const TABS = isRecruit ? RECRUIT_TAB : ABOUT_TAB;
+    const PAGES = isRecruit ? RECRUIT_TAB_PAGE : ABOUT_TAB_PAGE;
+    
+    const [activeTab, setActiveTab] = useState(TABS[0]);
 
-  return (
-    <>
-        <div className={styles.tabCont}>
-            <h2 className={styles.sectionTitle}>RECRUIT</h2>
-            <div className={styles.tabList}>
-                {TAB.map((tab) => {
-                    return (
-                        <button type="button" key={tab.id} onClick={() => setActiveTab(tab)}
-                            className={`${styles.tabStyle} ${activeTab.id === tab.id? styles.active : ""}`}>
+    // 選択中のタブに対応するページを取得
+    const activePage = PAGES.find((page) => page.id === activeTab.id);
+
+    return (
+        <>
+            <div className={styles.tabCont}>
+                <h2 className={styles.sectionTitle}>
+                    {isRecruit ? "RECRUIT" : "ABOUT US"}
+                </h2>
+                <div className={styles.tabList}>
+                    {TABS.map((tab) => (
+                        <button
+                            type="button"
+                            key={tab.id}
+                            onClick={() => setActiveTab(tab)}
+                            className={`${styles.tabStyle} ${activeTab.id === tab.id ? styles.active : ""}`}
+                        >
                             <span className={styles.mark}>＞</span>
                             <span className={styles.text}>{tab.tabName}</span>
-                        </button>  
-                    )     
-                })}
+                        </button>
+                    ))}
+                </div>
             </div>
-        </div>
-        <div key={activePage && activePage.id} className={styles.pageSection}>{activePage && activePage.page}</div>   
-    </>
-  )
-}
+            <div key={activePage?.id} className={styles.pageSection}>
+                {activePage && activePage.page}
+            </div>
+        </>
+    );
+};

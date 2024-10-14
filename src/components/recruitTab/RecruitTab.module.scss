@@ -1,25 +1,28 @@
-.tabCont {
+.tabCont, .tabCont2 {
     font-family: "Times New Roman", "游明朝", "YuMincho", "Hiragino Mincho ProN", "Meiryo", "serif";
     flex-direction: column;
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
-    padding-top: 30%;
+    padding-top: 190px;
     position: fixed;
     top: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 900px; 
+    transform: translateX(-50%);
+    max-width: 900px;
     width: 100%; 
     background-color: #fff;
+    z-index: 2;
     .sectionTitle {
         font-weight: 400;
+        letter-spacing: 0.05em;
     }
     .tabList {
         display: flex;
         width: 100%;
-        gap: 8px; 
+        gap: 10px; 
         margin-bottom: 16px;
+        flex-wrap: wrap;
         .tabStyle {
             background-color: transparent;
             border: none;
@@ -41,8 +44,7 @@
             }
             .text {
                 letter-spacing: 0.08em;
-                margin-right: 8px;
-                font-size: 16px;
+                font-size: 14px;
                 font-family: "Times New Roman", "游明朝", "YuMincho", "Hiragino Mincho ProN", "Meiryo", "serif";
                 &:hover {
                     color: #000;
@@ -58,7 +60,11 @@
 }
 
 .pageSection {
-    padding-top: 14vh; /* ビューポートの高さに応じた余白を確保 */
+    padding-top: 140px; /* タブの高さ分余白を固定 */
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
 }
 
 .active {

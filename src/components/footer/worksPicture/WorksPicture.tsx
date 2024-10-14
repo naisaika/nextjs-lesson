@@ -149,7 +149,7 @@ export const WorksPicture = ({clickedCategory, clickedArchitect}: onClickProps) 
                 <li key={data.id} className={`${styles.listDetail} ${!isVisible ? styles.hidden : ''}`}
                     data-id={data.id} data-category={data.category} data-architect={data.architect}
                     ref={(el) => { cardListRef.current[index] = el; }}>
-                  <Picture img1={data.img1} img2={data.img2}></Picture>
+                  <Picture img1={data.img1} img2={data.img2} url={data.url}></Picture>
                   <h3 className={styles.dataTitle}>{Array.isArray(data.title) ?
                     data.title.map((text, index) => <span key={index}>{text}</span>) : data.title}
                   </h3>

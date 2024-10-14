@@ -7,7 +7,40 @@
             "title": "Oyado Onn Nakatsugawa", 
             "subTitle": "お宿Onn 中津川",
             "category": "Shared Space",
-            "architect": ["Bae", "Hasegawa", "Hiyori"]
+            "architect": ["Bae", "Hasegawa", "Hiyori"], 
+            "url": "oyado-onn-nakatsugawa",
+            "video": "https://youtu.be/1r4QF-Vr_ww",
+            "picture": [
+                        "/products/oyado-onn-nakatsugawa/picture1.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture2.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture3.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture4.jpg", 
+                        "/products/oyado-onn-nakatsugawa/picture5.jpg", 
+                        "/products/oyado-onn-nakatsugawa/picture6.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture7.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture8.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture9.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture10.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture11.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture12.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture13.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture14.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture15.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture16.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture17.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture18.jpg", 
+                        "/products/oyado-onn-nakatsugawa/picture19.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture20.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture21.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture22.jpg", 
+                        "/products/oyado-onn-nakatsugawa/picture23.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture24.jpg",
+                        "/products/oyado-onn-nakatsugawa/picture25.jpg"
+                    ],
+            "date": "september, 2022",
+            "location": "Nakatsugawa,Gifu",
+            "web": "https://www.onn-nakatsugawa.com/",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 1, 
@@ -16,7 +49,23 @@
             "title": "Dance of light", 
             "subTitle": "",
             "category": "Shared Space",
-            "architect": "Torii"
+            "architect": "Torii",
+            "url": "dance-of-light",
+            "video": "https://youtu.be/0xD5j9YMIrY",
+            "picture": [
+                "/products/dance-of-light/picture1.jpg",
+                "/products/dance-of-light/picture2.jpg",
+                "/products/dance-of-light/picture3.jpg",
+                "/products/dance-of-light/picture4.jpg",
+                "/products/dance-of-light/picture5.jpg",
+                "/products/dance-of-light/picture6.jpg",
+                "/products/dance-of-light/picture7.jpg",
+                "/products/dance-of-light/picture8.jpg"
+            ],
+            "date": "March,2019",
+            "location": "Seoul, Korea",
+            "web": "",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 2, 
@@ -25,7 +74,14 @@
             "title": "MAZDA MX-30 TVCM", 
             "subTitle": "MAZDA MX-30 TVCM出演",
             "category": "Media",
-            "architect": ""
+            "architect": "",
+            "url": "mazda-mx-30-tvcm",
+            "video": "https://youtu.be/r-Ll2WFj-48",
+            "picture": "",
+            "date": "October,2020",
+            "location": "",
+            "web": "",
+            "photographer": ""
         },
         { 
             "id": 3, 
@@ -34,7 +90,27 @@
             "title": "Q Plaza FUTAKOTAMAGAWA", 
             "subTitle": "キュープラザ二子玉川",
             "category": "Shared Space",
-            "architect": ["Honda", "Ohkawa"]
+            "architect": ["Honda", "Ohkawa"],
+            "url": "キュープラザ二子玉川",
+            "picture": [
+                "/products/Q-Plaza-FUTAKOTAMAGAWA/picture1.jpg",
+                "/products/Q-Plaza-FUTAKOTAMAGAWA/picture2.jpg",
+                "/products/Q-Plaza-FUTAKOTAMAGAWA/picture3.jpg",
+                "/products/Q-Plaza-FUTAKOTAMAGAWA/picture4.jpg",
+                "/products/Q-Plaza-FUTAKOTAMAGAWA/picture5.jpg",
+                "/products/Q-Plaza-FUTAKOTAMAGAWA/picture6.jpg",
+                "/products/Q-Plaza-FUTAKOTAMAGAWA/picture7.jpg",
+                "/products/Q-Plaza-FUTAKOTAMAGAWA/picture8.jpg",
+                "/products/Q-Plaza-FUTAKOTAMAGAWA/picture9.jpg",
+                "/products/Q-Plaza-FUTAKOTAMAGAWA/picture10.jpg",
+                "/products/Q-Plaza-FUTAKOTAMAGAWA/picture11.jpg",
+                "/products/Q-Plaza-FUTAKOTAMAGAWA/picture12.jpg",
+                "/products/Q-Plaza-FUTAKOTAMAGAWA/picture13.jpg"
+            ],
+            "date": "April,2017",
+            "location": "Setagaya-ku,Tokyo",
+            "web": "http://www.q-plaza.jp/futakotamagawa/",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 4, 
@@ -43,7 +119,30 @@
             "title": "31VENTURES KOIL", 
             "subTitle": ["柏の葉", "オープンイノベーション・ラボ"],
             "category": "Shared Space",
-            "architect": "Furuichi"
+            "architect": "Furuichi",
+            "url": "koil柏の葉オープンイノベーションラボイノベーシ",
+            "picture": [
+                "/products/31VENTURES-KOIL/picture1.jpg",
+                "/products/31VENTURES-KOIL/picture2.jpg",
+                "/products/31VENTURES-KOIL/picture3.jpg",
+                "/products/31VENTURES-KOIL/picture4.jpg",
+                "/products/31VENTURES-KOIL/picture5.jpg",
+                "/products/31VENTURES-KOIL/picture6.jpg",
+                "/products/31VENTURES-KOIL/picture7.jpg",
+                "/products/31VENTURES-KOIL/picture8.jpg",
+                "/products/31VENTURES-KOIL/picture9.jpg",
+                "/products/31VENTURES-KOIL/picture10.jpg",
+                "/products/31VENTURES-KOIL/picture11.jpg",
+                "/products/31VENTURES-KOIL/picture12.jpg",
+                "/products/31VENTURES-KOIL/picture13.jpg",
+                "/products/31VENTURES-KOIL/picture14.jpg",
+                "/products/31VENTURES-KOIL/picture15.jpg",
+                "/products/31VENTURES-KOIL/picture16.jpg"
+            ],
+            "date": "March, 2014",
+            "location": "Kashiwa-shi, Chiba",
+            "web": "http://koil.jp/",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 5, 
@@ -52,7 +151,30 @@
             "title": "Kyukaruizawa Club Villa", 
             "subTitle": "旧軽井沢倶楽部の別荘",
             "category": "Private House",
-            "architect": ["Hayata", "Hiyori", "Kawabata", "Sato"]
+            "architect": ["Hayata", "Hiyori", "Kawabata", "Sato"],
+            "url": "kyukaruizawa-club-villa",
+            "picture": [
+                "/products/Kyukaruizawa-Club-Villa/picture1.jpg",
+                "/products/Kyukaruizawa-Club-Villa/picture2.jpg",
+                "/products/Kyukaruizawa-Club-Villa/picture3.jpg",
+                "/products/Kyukaruizawa-Club-Villa/picture4.jpg",
+                "/products/Kyukaruizawa-Club-Villa/picture5.jpg",
+                "/products/Kyukaruizawa-Club-Villa/picture6.jpg",
+                "/products/Kyukaruizawa-Club-Villa/picture7.jpg",
+                "/products/Kyukaruizawa-Club-Villaa/picture8.jpg",
+                "/products/Kyukaruizawa-Club-Villa/picture9.jpg",
+                "/products/Kyukaruizawa-Club-Villa/picture10.jpg",
+                "/products/Kyukaruizawa-Club-Villa/picture11.jpg",
+                "/products/Kyukaruizawa-Club-Villa/picture12.jpg",
+                "/products/Kyukaruizawa-Club-Villa/picture13.jpg",
+                "/products/Kyukaruizawa-Club-Villa/picture14.jpg",
+                "/products/Kyukaruizawa-Club-Villa/picture15.jpg",
+                "/products/Kyukaruizawa-Club-Villa/picture16.jpg"
+            ],
+            "date": "September, 2023",
+            "location": "Karuizawa, Nagano",
+            "web": "https://www.kyukaru.com/plan/2315/",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 6, 
@@ -61,7 +183,28 @@
             "title": "Oyado Onn Yudaonsen", 
             "subTitle": "お宿Onn 湯田温泉",
             "category": "Shared Space",
-            "architect": ["Kawabata", "Ohbayashi"]
+            "architect": ["Kawabata", "Ohbayashi"],
+            "url": "oyado-onn-yudaonsen",
+            "picture": [
+                "/products/Oyado-Onn-Yudaonsen/picture1.jpg",
+                "/products/Oyado-Onn-Yudaonsen/picture2.jpg",
+                "/products/Oyado-Onn-Yudaonsen/picture3.jpg",
+                "/products/Oyado-Onn-Yudaonsen/picture4.jpg",
+                "/products/Oyado-Onn-Yudaonsen/picture5.jpg",
+                "/products/Oyado-Onn-Yudaonsen/picture6.jpg",
+                "/products/Oyado-Onn-Yudaonsen/picture7.jpg",
+                "/products/Oyado-Onn-Yudaonsen/picture8.jpg",
+                "/products/Oyado-Onn-Yudaonsen/picture9.jpg",
+                "/products/Oyado-Onn-Yudaonsen/picture10.jpg",
+                "/products/Oyado-Onn-Yudaonsen/picture11.jpg",
+                "/products/Oyado-Onn-Yudaonsen/picture12.jpg",
+                "/products/Oyado-Onn-Yudaonsen/picture13.jpg",
+                "/products/Oyado-Onn-Yudaonsen/picture14.jpeg"
+            ],
+            "date": "July, 2022",
+            "location": "Yuda,Yamaguchi",
+            "web": "https://www.onn-yudaonsen.com/",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 7, 
@@ -70,7 +213,23 @@
             "title": "meet tree GINZA", 
             "subTitle": "meet tree 銀座",
             "category": "Shared Space",
-            "architect": ["Marui", "Namiki"]
+            "architect": ["Marui", "Namiki"],
+            "url": "meet-tree-ginza",
+            "picture": [
+                "/products/meet-tree-GINZA/picture1.jpg",
+                "/products/meet-tree-GINZA/picture2.jpg",
+                "/products/meet-tree-GINZA/picture3.jpg",
+                "/products/meet-tree-GINZA/picture4.jpg",
+                "/products/meet-tree-GINZA/picture5.jpg",
+                "/products/meet-tree-GINZA/picture6.jpg",
+                "/products/meet-tree-GINZA/picture7.jpg",
+                "/products/meet-tree-GINZA/picture8.jpg",
+                "/products/meet-tree-GINZA/picture9.jpg"
+            ],
+            "date": "December , 2023",
+            "location": "chuo-ku,Tokyo",
+            "web": "https://www.meettree.net/",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 8, 
@@ -79,7 +238,26 @@
             "title": "9h nine hours Namba station", 
             "subTitle": "ナインアワーズなんば駅",
             "category": "Shared Space",
-            "architect": "Yamagata"
+            "architect": "Yamagata",
+            "url": "ナインアワーズなんば駅",
+            "picture": [
+                "/products/9h-nine-hours-Namba-station/picture1.jpg",
+                "/products/9h-nine-hours-Namba-station/picture2.jpg",
+                "/products/9h-nine-hours-Namba-station/picture3.jpg",
+                "/products/9h-nine-hours-Namba-station/picture4.jpg",
+                "/products/9h-nine-hours-Namba-station/picture5.jpg",
+                "/products/9h-nine-hours-Namba-station/picture6.jpg",
+                "/products/9h-nine-hours-Namba-station/picture7.jpg",
+                "/products/9h-nine-hours-Namba-station/picture8.jpg",
+                "/products/9h-nine-hours-Namba-station/picture9.jpg",
+                "/products/9h-nine-hours-Namba-station/picture10.jpg",
+                "/products/9h-nine-hours-Namba-station/picture11.jpg",
+                "/products/9h-nine-hours-Namba-station/picture12.jpg"
+            ],
+            "date": "April, 2019",
+            "location": "Osaka",
+            "web": "https://ninehours.co.jp/namba-station",
+            "photographer": "Nacása & Partners Inc."
         },
         { 
             "id": 9, 
@@ -88,7 +266,28 @@
             "title": "DENSO Global R&D Tokyo,Haneda", 
             "subTitle": "DENSO Global R&D Tokyo,Haneda",
             "category": "Shared Space",
-            "architect": "Hasegawa"
+            "architect": "Hasegawa",
+            "url": "denso-global-rd-tokyohaneda",
+            "picture": [
+                "/products/DENSO-Global-R&D-Tokyo-Haneda/picture1.jpg",
+                "/products/DENSO-Global-R&D-Tokyo-Haneda/picture2.jpg",
+                "/products/DENSO-Global-R&D-Tokyo-Haneda/picture3.jpg",
+                "/products/DENSO-Global-R&D-Tokyo-Haneda/picture4.jpg",
+                "/products/DENSO-Global-R&D-Tokyo-Haneda/picture5.jpg",
+                "/products/DENSO-Global-R&D-Tokyo-Haneda/picture6.jpg",
+                "/products/DENSO-Global-R&D-Tokyo-Haneda/picture7.jpg",
+                "/products/DENSO-Global-R&D-Tokyo-Haneda/picture8.jpg",
+                "/products/DENSO-Global-R&D-Tokyo-Haneda/picture9.jpg",
+                "/products/DENSO-Global-R&D-Tokyo-Haneda/picture10.jpg",
+                "/products/DENSO-Global-R&D-Tokyo-Haneda/picture11.jpg",
+                "/products/DENSO-Global-R&D-Tokyo-Haneda/picture12.jpg",
+                "/products/DENSO-Global-R&D-Tokyo-Haneda/picture13.jpg",
+                "/products/DENSO-Global-R&D-Tokyo-Haneda/picture14.jpg"
+            ],
+            "date": "June, 2020",
+            "location": "Tokyo",
+            "web": "",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 10, 
@@ -97,7 +296,38 @@
             "title": "Social Base HIGASHINAKANO", 
             "subTitle": "ソーシャルベース東中野",
             "category": "Shared Space",
-            "architect": "&K architects"
+            "architect": "&K architects",
+            "url": "social-base-higashinakano",
+            "picture": [
+                "/products/Social-Base-HIGASHINAKANO/picture1.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture2.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture3.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture4.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture5.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture6.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture7.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture8.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture9.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture10.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture11.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture12.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture13.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture14.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture15.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture16.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture17.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture18.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture19.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture20.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture21.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture22.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture23.jpg",
+                "/products/Social-Base-HIGASHINAKANO/picture24.jpg"
+            ],
+            "date": "march 2023",
+            "location": "Higashinakano, Tokyo",
+            "web": "https://jrsocialdesign.co.jp/sharehouse/socialbasehigashinakano",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 11, 
@@ -106,7 +336,27 @@
             "title": "Mount Takao Sumika", 
             "subTitle": "高尾山スミカ",
             "category": "Shared Space",
-            "architect": ["Kawabata", "Nagayama"]
+            "architect": ["Kawabata", "Nagayama"],
+            "url": "高尾山スミカ",
+            "picture": [
+                "/products/Mount-Takao-Sumika/picture1.jpg",
+                "/products/Mount-Takao-Sumika/picture2.jpg",
+                "/products/Mount-Takao-Sumika/picture3.jpg",
+                "/products/Mount-Takao-Sumika/picture4.jpg",
+                "/products/Mount-Takao-Sumika/picture5.jpg",
+                "/products/Mount-Takao-Sumika/picture6.jpg",
+                "/products/Mount-Takao-Sumika/picture7.jpg",
+                "/products/Mount-Takao-Sumika/picture8.jpg",
+                "/products/Mount-Takao-Sumika/picture9.jpg",
+                "/products/Mount-Takao-Sumika/picture10.jpg",
+                "/products/Mount-Takao-Sumika/picture11.jpg",
+                "/products/Mount-Takao-Sumika/picture12.jpg",
+                "/products/Mount-Takao-Sumika/picture13.jpg"
+            ],
+            "date": "March,2018",
+            "location": "Hachioji,Tokyo",
+            "web": "http://www.takaotozan.co.jp/sumika/",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 12, 
@@ -115,7 +365,32 @@
             "title": "meet tree NAKATSUGAWA", 
             "subTitle": "meet tree 中津川",
             "category": "Shared Space",
-            "architect": ["Kaneta", "Shimada"]
+            "architect": ["Kaneta", "Shimada"],
+            "url": "meet-tree-nakatsugawa",
+            "picture": [
+                "/products/meet-tree-NAKATSUGAWA/picture1.jpg",
+                "/products/meet-tree-NAKATSUGAWA/picture2.jpg",
+                "/products/meet-tree-NAKATSUGAWA/picture3.jpg",
+                "/products/meet-tree-NAKATSUGAWA/picture4.jpg",
+                "/products/meet-tree-NAKATSUGAWA/picture5.jpg",
+                "/products/meet-tree-NAKATSUGAWA/picture6.jpg",
+                "/products/meet-tree-NAKATSUGAWA/picture7.jpg",
+                "/products/meet-tree-NAKATSUGAWA/picture8.jpg",
+                "/products/meet-tree-NAKATSUGAWA/picture9.jpg",
+                "/products/meet-tree-NAKATSUGAWA/picture10.jpg",
+                "/products/meet-tree-NAKATSUGAWA/picture11.jpg",
+                "/products/meet-tree-NAKATSUGAWA/picture12.jpg",
+                "/products/meet-tree-NAKATSUGAWA/picture13.jpg",
+                "/products/meet-tree-NAKATSUGAWA/picture14.jpg",
+                "/products/meet-tree-NAKATSUGAWA/picture15.jpg",
+                "/products/meet-tree-NAKATSUGAWA/picture16.jpg",
+                "/products/meet-tree-NAKATSUGAWA/picture17.jpg",
+                "/products/meet-tree-NAKATSUGAWA/picture18.jpg"
+            ],
+            "date": "February,2021",
+            "location": "Nakatsugawa,Gihu",
+            "web": "https://www.meettree.net/",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 13, 
@@ -124,7 +399,31 @@
             "title": "LIETO-GARDEN MITAKA", 
             "subTitle": "リエットガーデン三鷹",
             "category": "Shared Space",
-            "architect": "Hasegawa"
+            "architect": "Hasegawa",
+            "url": "リエットガーデン三鷹",
+            "picture": [
+                "/products/LIETO-GARDEN-MITAKA/picture1.jpg",
+                "/products/LIETO-GARDEN-MITAKA/picture2.jpg",
+                "/products/LIETO-GARDEN-MITAKA/picture3.jpg",
+                "/products/LIETO-GARDEN-MITAKA/picture4.jpg",
+                "/products/LIETO-GARDEN-MITAKA/picture5.jpg",
+                "/products/LIETO-GARDEN-MITAKA/picture6.jpg",
+                "/products/LIETO-GARDEN-MITAKA/picture7.jpg",
+                "/products/LIETO-GARDEN-MITAKA/picture8.jpg",
+                "/products/LIETO-GARDEN-MITAKA/picture9.jpg",
+                "/products/LIETO-GARDEN-MITAKA/picture10.jpg",
+                "/products/LIETO-GARDEN-MITAKA/picture11.jpg",
+                "/products/LIETO-GARDEN-MITAKA/picture12.jpg",
+                "/products/LIETO-GARDEN-MITAKA/picture13.jpg",
+                "/products/LIETO-GARDEN-MITAKA/picture14.jpg",
+                "/products/LIETO-GARDEN-MITAKA/picture15.jpg",
+                "/products/LIETO-GARDEN-MITAKA/picture16.jpg",
+                "/products/LIETO-GARDEN-MITAKA/picture17.jpg"
+            ],
+            "date": "July, 2019",
+            "location": "Mitaka, Tokyo",
+            "web": "http://www.jrtk.jp/lieto-garden/",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 14, 
@@ -133,7 +432,30 @@
             "title": ["9h nine hours", "Nakasu-Kawabata station"],
             "subTitle": "ナインアワーズ中洲川端駅",
             "category": "Shared Space",
-            "architect": "Kawabata"
+            "architect": "Kawabata",
+            "url": "9h-nine-hours-中洲川端駅",
+            "picture": [
+                "/products/9h-nine-hours-Nakasu-Kawabata station/picture1.jpg",
+                "/products/9h-nine-hours-Nakasu-Kawabata station/picture2.jpg",
+                "/products/9h-nine-hours-Nakasu-Kawabata station/picture3.jpg",
+                "/products/9h-nine-hours-Nakasu-Kawabata station/picture4.jpg",
+                "/products/9h-nine-hours-Nakasu-Kawabata station/picture5.jpg",
+                "/products/9h-nine-hours-Nakasu-Kawabata station/picture6.jpg",
+                "/products/9h-nine-hours-Nakasu-Kawabata station/picture7.jpg",
+                "/products/9h-nine-hours-Nakasu-Kawabata station/picture8.jpg",
+                "/products/9h-nine-hours-Nakasu-Kawabata station/picture9.jpg",
+                "/products/9h-nine-hours-Nakasu-Kawabata station/picture10.jpg",
+                "/products/9h-nine-hours-Nakasu-Kawabata station/picture11.jpg",
+                "/products/9h-nine-hours-Nakasu-Kawabata station/picture12.jpg",
+                "/products/9h-nine-hours-Nakasu-Kawabata station/picture13.jpg",
+                "/products/9h-nine-hours-Nakasu-Kawabata station/picture14.jpg",
+                "/products/9h-nine-hours-Nakasu-Kawabata station/picture15.jpg",
+                "/products/9h-nine-hours-Nakasu-Kawabata station/picture16.jpg"
+            ],
+            "date": "August, 2019",
+            "location": "Fukuoka",
+            "web": " https://ninehours.co.jp/nakasukawabata-station",
+            "photographer": "Nacása & Partners Inc."
         },
         { 
             "id": 15, 
@@ -142,7 +464,31 @@
             "title": "LT Josai", 
             "subTitle": "LT城西",
             "category": "Shared Space",
-            "architect": "Kanada"
+            "architect": "Kanada",
+            "url": "ltjosai",
+            "picture": [
+                "/products/LT-Josai/picture1.jpg",
+                "/products/LT-Josai/picture2.jpg",
+                "/products/LT-Josai/picture3.jpg",
+                "/products/LT-Josai/picture4.jpg",
+                "/products/LT-Josai/picture5.jpg",
+                "/products/LT-Josai/picture6.jpg",
+                "/products/LT-Josai/picture7.jpg",
+                "/products/LT-Josai/picture8.jpg",
+                "/products/LT-Josai/picture9.jpg",
+                "/products/LT-Josai/picture10.jpg",
+                "/products/LT-Josai/picture11.jpg",
+                "/products/LT-Josai/picture12.jpg",
+                "/products/LT-Josai/picture13.jpg",
+                "/products/LT-Josai/picture14.jpg",
+                "/products/LT-Josai/picture15.jpg",
+                "/products/LT-Josai/picture16.jpg",
+                "/products/LT-Josai/picture17.jpg"
+            ],
+            "date": "June, 2013",
+            "location": "Nagoya-shi, Aichi",
+            "web": "http://lt-josai.com/",
+            "photographer": "Masao Nishikawa, YOSHIAKI TSUTSUI"
         },
         { 
             "id": 16, 
@@ -151,7 +497,29 @@
             "title": "Teshima 8million lab", 
             "subTitle": "豊島八百万ラボ",
             "category": "Shared Space",
-            "architect": ["Furuichi", "Hasegawa", "Oka"]
+            "architect": ["Furuichi", "Hasegawa", "Oka"],
+            "url": "豊島八百万ラボ",
+            "picture": [
+                "/products/Teshima-8million-lab/picture1.jpg",
+                "/products/Teshima-8million-lab/picture2.jpg",
+                "/products/Teshima-8million-lab/picture3.jpg",
+                "/products/Teshima-8million-lab/picture4.jpg",
+                "/products/Teshima-8million-lab/picture5.jpg",
+                "/products/Teshima-8million-lab/picture6.jpg",
+                "/products/Teshima-8million-lab/picture7.jpg",
+                "/products/Teshima-8million-lab/picture8.jpg",
+                "/products/Teshima-8million-lab/picture9.jpg",
+                "/products/Teshima-8million-lab/picture10.jpg",
+                "/products/Teshima-8million-lab/picture11.jpg",
+                "/products/Teshima-8million-lab/picture12.jpg",
+                "/products/Teshima-8million-lab/picture13.jpg",
+                "/products/Teshima-8million-lab/picture14.jpeg",
+                "/products/Teshima-8million-lab/picture15.jpg"
+            ],
+            "date": "March, 2016",
+            "location": "Teshima, Kagawa",
+            "web": "http://benesse-artsite.jp/art/8-million-lab.html",
+            "photographer": "OMOTE Nobutada, Kenta Hasegawa, Shinkenchiku-sha"
         },
         { 
             "id": 17, 
@@ -160,7 +528,28 @@
             "title": ["SEIBU Ikebukuroten ANNEX Bldg.", "& BOOKSTORE Bldg. Public Space"], 
             "subTitle": ["西武池袋本店", "別館・書籍館パブリックスペース"],
             "category": "Shared Space",
-            "architect": ["Furuichi", "Hasegawa", "Honda", "Oka"]
+            "architect": ["Furuichi", "Hasegawa", "Honda", "Oka"],
+            "url": "西武池袋本店 別館・書籍館パブリックスペース",
+            "picture": [
+                "/products/SEIBU-Ikebukuroten/picture1.jpg",
+                "/products/SEIBU-Ikebukuroten/picture2.jpg",
+                "/products/SEIBU-Ikebukuroten/picture3.jpg",
+                "/products/SEIBU-Ikebukuroten/picture4.jpg",
+                "/products/SEIBU-Ikebukurotenb/picture5.jpg",
+                "/products/SEIBU-Ikebukuroten/picture6.jpg",
+                "/products/SEIBU-Ikebukuroten/picture7.jpg",
+                "/products/SEIBU-Ikebukuroten/picture8.jpg",
+                "/products/SEIBU-Ikebukuroten/picture9.jpg",
+                "/products/SEIBU-Ikebukuroten/picture10.jpg",
+                "/products/SEIBU-Ikebukuroten/picture11.jpg",
+                "/products/SEIBU-Ikebukuroten/picture12.jpg",
+                "/products/SEIBU-Ikebukuroten/picture13.jpg",
+                "/products/SEIBU-Ikebukuroten/picture14.jpg"
+            ],
+            "date": "Desember, 2015",
+            "location": "Toshima-ku, Tokyo",
+            "web": "",
+            "photographer": "Kenta Hasegawa"
         },
         { 
             "id": 18, 
@@ -169,7 +558,31 @@
             "title": "Split House", 
             "subTitle": "スプリットハウス",
             "category": "Private House",
-            "architect": ["Ishikawa", "Ota"]
+            "architect": ["Ishikawa", "Ota"],
+            "url": "スプリットハウス",
+            "picture": [
+                "/products/Split-House/picture1.jpg",
+                "/products/Split-House/picture2.jpg",
+                "/products/Split-House/picture3.jpg",
+                "/products/Split-House/picture4.jpg",
+                "/products/Split-House/picture5.jpg",
+                "/products/Split-House/picture6.jpg",
+                "/products/Split-House/picture7.jpg",
+                "/products/Split-House/picture8.jpg",
+                "/products/Split-House/picture9.jpg",
+                "/products/Split-House/picture10.jpg",
+                "/products/Split-House/picture11.jpg",
+                "/products/Split-House/picture12.jpg",
+                "/products/Split-House/picture13.jpg",
+                "/products/Split-House/picture14.jpg",
+                "/products/Split-House/picture15.jpg",
+                "/products/Split-House/picture16.jpg",
+                "/products/Split-House/picture17.jpg"
+            ],
+            "date": "October, 2014",
+            "location": "Tokyo",
+            "web": "",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 19, 
@@ -178,7 +591,22 @@
             "title": "common furniture / Partition", 
             "subTitle": "コモンファニチャー パーティション",
             "category": "Product",
-            "architect": "Odaka"
+            "architect": "Odaka",
+            "url": "common-furniture-partition",
+            "picture": [
+                "/products/common-furniture-Partition/picture1.jpg",
+                "/products/common-furniture-Partition/picture2.jpg",
+                "/products/common-furniture-Partition/picture3.jpg",
+                "/products/common-furniture-Partition/picture4.jpg",
+                "/products/common-furniture-Partition/picture5.jpg",
+                "/products/common-furniture-Partition/picture6.jpg",
+                "/products/common-furniture-Partition/picture7.jpg",
+                "/products/common-furniture-Partition/picture8.jpg"
+            ],
+            "date": "October,2023",
+            "location": "",
+            "web": "https://www.itoki.jp/special/common-furniture/index.html",
+            "photographer": ""
         },
         { 
             "id": 20, 
@@ -187,7 +615,26 @@
             "title": "common furniture", 
             "subTitle": "コモンファニチャー",
             "category": "Product",
-            "architect": "Konishi"
+            "architect": "Konishi",
+             "url": "common-furniture",
+             "picture": [
+                "/products/common-furnitur/picture1.jpg",
+                "/products/common-furnitur/picture2.jpg",
+                "/products/common-furnitur/picture3.jpg",
+                "/products/common-furnitur/picture4.jpg",
+                "/products/common-furnitur/picture5.jpg",
+                "/products/common-furnitur/picture6.jpg",
+                "/products/common-furnitur/picture7.jpg",
+                "/products/common-furniturE/picture8.jpg",
+                "/products/common-furnitur/picture9.jpg",
+                "/products/common-furnitur/picture10.jpg",
+                "/products/common-furnitur/picture11.jpg",
+                "/products/common-furnitur/picture12.jpg"
+            ],
+            "date": "July,2022",
+            "location": "",
+            "web": "https://www.itoki.jp/special/common-furniture/index.html",
+            "photographer": ""
         },
         { 
             "id": 21, 
@@ -196,7 +643,28 @@
             "title": "OPEN CAVE", 
             "subTitle": "",
             "category": "Private House",
-            "architect": ["Kawabata", "Nagayama"]
+            "architect": ["Kawabata", "Nagayama"],
+            "url": "open-cave",
+            "picture": [
+                "/products/OPEN-CAVE/picture1.jpg",
+                "/products/OPEN-CAVE/picture2.jpg",
+                "/products/OPEN-CAVE/picture3.jpg",
+                "/products/OPEN-CAVE/picture4.jpg",
+                "/products/OPEN-CAVE/picture5.jpg",
+                "/products/OPEN-CAVE/picture6.jpg",
+                "/products/OPEN-CAVE/picture7.jpg",
+                "/products/OPEN-CAVE/picture8.jpg",
+                "/products/OPEN-CAVE/picture9.jpg",
+                "/products/OPEN-CAVE/picture10.jpg",
+                "/products/OPEN-CAVE/picture11.jpg",
+                "/products/OPEN-CAVE/picture12.jpg",
+                "/products/OPEN-CAVE/picture13.jpg",
+                "/products/OPEN-CAVE/picture14.jpg"
+            ],
+            "date": "August,2019",
+            "location": "Suginami-ku, Tokyo",
+            "web": "",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 22, 
@@ -205,7 +673,32 @@
             "title": "GOOD DESIGN EXHIBITION 2019", 
             "subTitle": "",
             "category": "Exhibition",
-            "architect": ["Hashegawa", "Shimada"]
+            "architect": ["Hashegawa", "Shimada"],
+            "url": "2019年度グッドデザイン賞受賞展",
+            "picture": [
+                "/products/GOOD-DESIGN-EXHIBITION-2019/picture1.jpg",
+                "/products/GOOD-DESIGN-EXHIBITION-2019/picture2.jpg",
+                "/products/GOOD-DESIGN-EXHIBITION-2019/picture3.jpg",
+                "/products/GOOD-DESIGN-EXHIBITION-2019/picture4.jpg",
+                "/products/GOOD-DESIGN-EXHIBITION-2019/picture5.jpg",
+                "/products/GOOD-DESIGN-EXHIBITION-2019/picture6.jpg",
+                "/products/GOOD-DESIGN-EXHIBITION-2019/picture7.jpg",
+                "/products/GOOD-DESIGN-EXHIBITION-2019/picture8.jpg",
+                "/products/GOOD-DESIGN-EXHIBITION-2019/picture9.jpg",
+                "/products/GOOD-DESIGN-EXHIBITION-2019/picture10.jpg",
+                "/products/GOOD-DESIGN-EXHIBITION-2019/picture11.jpg",
+                "/products/GOOD-DESIGN-EXHIBITION-2019/picture12.jpg",
+                "/products/GOOD-DESIGN-EXHIBITION-2019/picture13.jpg",
+                "/products/GOOD-DESIGN-EXHIBITION-2019/picture14.jpg",
+                "/products/GOOD-DESIGN-EXHIBITION-2019/picture15.jpg",
+                "/products/GOOD-DESIGN-EXHIBITION-2019/picture16.jpg",
+                "/products/GOOD-DESIGN-EXHIBITION-2019/picture17.jpg",
+                "/products/GOOD-DESIGN-EXHIBITION-2019/picture18.jpg"
+            ],
+            "date": "2019.10.31-11.4",
+            "location": "Roppongi,Tokyo",
+            "web": "http://archive.g-mark.org/gde/2019/index.htmlhttps://www.g-mark.org/activity/2019/message.html",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 23, 
@@ -214,7 +707,36 @@
             "title": "Sakanoue Terrace", 
             "subTitle": "坂の上テラス",
             "category": "Shared Space",
-            "architect": "Kanada"
+            "architect": "Kanada",
+            "url": "坂の上テラス",
+            "picture": [
+                "/products/Sakanoue-Terrace/picture1.jpg",
+                "/products/Sakanoue-Terrace/picture2.jpg",
+                "/products/Sakanoue-Terrace/picture3.jpg",
+                "/products/Sakanoue-Terrace/picture4.jpg",
+                "/products/Sakanoue-Terrace/picture5.jpg",
+                "/products/Sakanoue-Terrace/picture6.jpg",
+                "/products/Sakanoue-Terrace/picture7.jpg",
+                "/products/Sakanoue-Terrace/picture8.jpg",
+                "/products/Sakanoue-Terrace/picture9.jpg",
+                "/products/Sakanoue-Terrace/picture10.jpg",
+                "/products/Sakanoue-Terrace/picture11.jpg",
+                "/products/Sakanoue-Terrace/picture12.jpg",
+                "/products/Sakanoue-Terrace/picture13.jpg",
+                "/products/Sakanoue-Terrace/picture14.jpg",
+                "/products/Sakanoue-Terrace/picture15.jpg",
+                "/products/Sakanoue-Terrace/picture16.jpg",
+                "/products/Sakanoue-Terrace/picture17.jpg",
+                "/products/Sakanoue-Terrace/picture18.jpg",
+                "/products/Sakanoue-Terrace/picture19.jpg",
+                "/products/Sakanoue-Terrace/picture20.jpg",
+                "/products/Sakanoue-Terrace/picture21.jpg",
+                "/products/Sakanoue-Terrace/picture22.jpg"
+            ],
+            "date": "March,2017",
+            "location": "Tokyo",
+            "web": "",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 24, 
@@ -223,7 +745,36 @@
             "title": "DENSO Corporation Nagoya Office", 
             "subTitle": "",
             "category": "Shared Space",
-            "architect": ["Hasegawa", "Nagayama"]
+            "architect": ["Hasegawa", "Nagayama"],
+            "url": "株式会社デンソー名古屋オフィス",
+            "picture": [
+                "/products/DENSO-Corporation-Nagoya-Office/picture1.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture2.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture3.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture4.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture5.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture6.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture7.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture8.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture9.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture10.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture11.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture12.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture13.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture14.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture15.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture16.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture17.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture18.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture19.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/pictur20.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture21.jpg",
+                "/products/DENSO-Corporation-Nagoya-Office/picture22.jpg"
+            ],
+            "date": "March,2017",
+            "location": "Nagoya,Aichi",
+            "web": "",
+            "photographer": "Kenta Hasegawa"
         },
         { 
             "id": 25, 
@@ -232,7 +783,27 @@
             "title": "Tenkawamura-Minamihiura Housing", 
             "subTitle": "天川村南日裏定住促進住宅",
             "category": "Shared Space",
-            "architect": "Honda"
+            "architect": "Honda",
+            "url": "天川村南日裏定住促進住宅",
+            "picture": [
+                "/products/Tenkawamura-Minamihiura Housing/picture1.jpg",
+                "/products/Tenkawamura-Minamihiura Housing/picture2.jpg",
+                "/products/Tenkawamura-Minamihiura Housing/picture3.jpg",
+                "/products/Tenkawamura-Minamihiura Housing/picture4.jpg",
+                "/products/Tenkawamura-Minamihiura Housing/picture5.jpg",
+                "/products/Tenkawamura-Minamihiura Housing/picture6.jpg",
+                "/products/Tenkawamura-Minamihiura Housing/picture7.jpg",
+                "/products/Tenkawamura-Minamihiura Housing/picture8.jpg",
+                "/products/Tenkawamura-Minamihiura Housing/picture9.jpg",
+                "/products/Tenkawamura-Minamihiura Housing/picture10.jpg",
+                "/products/Tenkawamura-Minamihiura Housing/picture11.jpg",
+                "/products/Tenkawamura-Minamihiura Housing/picture12.jpg",
+                "/products/Tenkawamura-Minamihiura Housing/picture13.jpg"
+            ],
+            "date": "March,2017",
+            "location": "Tenkawa village,Nara",
+            "web": "http://www.vill.tenkawa.nara.jp/newlife/",
+            "photographer": "Masao Nishikawa,Shinkenchiku-sha"
         },
         { 
             "id": 26, 
@@ -241,7 +812,23 @@
             "title": "Riku Café", 
             "subTitle": "りくカフェ本設",
             "category": "Shared Space",
-            "architect": ["Honda", "Itami", "Iwai", "Ota"]
+            "architect": ["Honda", "Itami", "Iwai", "Ota"],
+            "url": "りくカフェ本設",
+            "picture": [
+                "/products/Riku-Cafe/picture1.jpg",
+                "/products/Riku-Cafe/picture2.jpg",
+                "/products/Riku-Cafe/picture3.jpg",
+                "/products/Riku-Cafe/picture4.jpg",
+                "/products/Riku-Cafe/picture5.jpg",
+                "/products/Riku-Cafe/picture6.jpg",
+                "/products/Riku-Cafe/picture7.jpg",
+                "/products/Riku-Cafe/picture8.jpg",
+                "/products/Riku-Cafe/picture9.jpg"
+            ],
+            "date": "September, 2014",
+            "location": "Rikuzentakata-shi, Iwate",
+            "web": "http://rikucafe.jp/",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 27, 
@@ -250,7 +837,34 @@
             "title": "SHIRO ARIMOTO Memorial Alumni Hall", 
             "subTitle": "有元史郎記念校友会館",
             "category": "Shared Space",
-            "architect": "Kaneta"
+            "architect": "Kaneta",
+            "url": "shiro-arimoto-memorial-alumni-hall",
+            "picture": [
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture1.jpg",
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture2.jpg",
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture3.jpg",
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture4.jpg",
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture5.jpg",
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture6.jpg",
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture7.jpg",
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture8.jpg",
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture9.jpg",
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture10.jpg",
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture11.jpg",
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture12.jpg",
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture13.jpg",
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture14.jpg",
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture15.jpg",
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture16.jpg",
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture17.jpg",
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture18.jpg",
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture19.jpg",
+                "/products/SHIRO-ARIMOTO-Memorial-Alumni-Hall/picture20.jpg"
+            ],
+            "date": "March,2019",
+            "location": "",
+            "web": "",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 28, 
@@ -259,7 +873,28 @@
             "title": "Venice biennale 2016", 
             "subTitle": ["第15回ヴェネチア・ビエンナーレ", "国際建築展 日本館"],
             "category": "Exhibition",
-            "architect": ["Isobe", "Kanada"]
+            "architect": ["Isobe", "Kanada"],
+            "url": "第15回ヴェネチア・ビエンナーレ国際建築展-日本",
+            "picture": [
+                "/products/Venice-biennale-2016/picture1.jpg",
+                "/products/Venice-biennale-2016/picture2.jpg",
+                "/products/Venice-biennale-2016/picture3.jpg",
+                "/products/Venice-biennale-2016/picture4.jpg",
+                "/products/Venice-biennale-2016/picture5.jpg",
+                "/products/Venice-biennale-2016/picture6.jpg",
+                "/products/Venice-biennale-2016/picture7.jpg",
+                "/products/Venice-biennale-2016/picture8.jpg",
+                "/products/Venice-biennale-2016/picture9.jpg",
+                "/products/Venice-biennale-2016/picture10.jpg",
+                "/products/Venice-biennale-2016/picture11.jpg",
+                "/products/Venice-biennale-2016/picture12.jpg",
+                "/products/Venice-biennale-2016/picture13.jpg",
+                "/products/Venice-biennale-2016/picture14.jpg"
+            ],
+            "date": "28 May,2016 - 27 November,2016",
+            "location": "Venice, Italy",
+            "web": "http://2016.veneziabiennale-japanpavilion.jp/index.html",
+            "photographer": "The Japan Foundation, Anna Nagai, Kazuhiro Ishiyama"
         },
         { 
             "id": 29, 
@@ -268,7 +903,31 @@
             "title": "House / Café in Kyodo", 
             "subTitle": "経堂のカフェ",
             "category": "Shared Space",
-            "architect": ["Hasegawa", "Ota"]
+            "architect": ["Hasegawa", "Ota"],
+            "url": "経堂のカフェ併用住宅",
+            "picture": [
+                "/products/House-Cafe-in-Kyodo/picture1.jpg",
+                "/products/House-Cafe-in-Kyodo/picture2.jpg",
+                "/products/House-Cafe-in-Kyodo/picture3.jpg",
+                "/products/House-Cafe-in-Kyodo/picture4.jpg",
+                "/products/House-Cafe-in-Kyodo/picture5.jpg",
+                "/products/House-Cafe-in-Kyodo/picture6.jpg",
+                "/products/House-Cafe-in-Kyodo/picture7.jpg",
+                "/products/House-Cafe-in-Kyodo/picture8.jpg",
+                "/products/House-Cafe-in-Kyodo/picture9.jpg",
+                "/products/House-Cafe-in-Kyodo/picture10.jpg",
+                "/products/House-Cafe-in-Kyodo/picture11.jpg",
+                "/products/House-Cafe-in-Kyodo/picture12.jpg",
+                "/products/House-Cafe-in-Kyodo/picture13.jpg",
+                "/products/House-Cafe-in-Kyodo/picture14.jpg",
+                "/products/House-Cafe-in-Kyodo/picture15.jpg",
+                "/products/House-Cafe-in-Kyodo/picture16.jpg",
+                "/products/House-Cafe-in-Kyodo/picture17.jpg"
+            ],
+            "date": "March, 2016",
+            "location": "Setagaya-ku, Tokyo",
+            "web": "http://finetimecoffee.com/",
+            "photographer": "Kenta Hasegawa"
         },
         { 
             "id": 30, 
@@ -277,7 +936,29 @@
             "title": "SHIBUYA CAST. Collective Floor", 
             "subTitle": "SHIBUYA CAST.コレクティブフロア",
             "category": "Shared Space",
-            "architect": ["Honda", "Ishikawa"]
+            "architect": ["Honda", "Ishikawa"],
+            "url": "shibuya-cast-コレクティブフロア",
+            "picture": [
+                "/products/SHIBUYA-CAST-Collective-Floor/picture1.jpg",
+                "/products/SHIBUYA-CAST-Collective-Floor/picture2.jpg",
+                "/products/SHIBUYA-CAST-Collective-Floor/picture3.jpg",
+                "/products/SHIBUYA-CAST-Collective-Floor/picture4.jpg",
+                "/products/SHIBUYA-CAST-Collective-Floor/picture5.jpg",
+                "/products/SHIBUYA-CAST-Collective-Floor/picture6.jpg",
+                "/products/SHIBUYA-CAST-Collective-Floor/picture7.jpg",
+                "/products/SHIBUYA-CAST-Collective-Floor/picture8.jpg",
+                "/products/SHIBUYA-CAST-Collective-Floor/picture9.jpg",
+                "/products/SHIBUYA-CAST-Collective-Floor/picture10.jpg",
+                "/products/SHIBUYA-CAST-Collective-Floor/picture11.jpg",
+                "/products/SHIBUYA-CAST-Collective-Floor/picture12.jpg",
+                "/products/SHIBUYA-CAST-Collective-Floor/picture13.jpg",
+                "/products/SHIBUYA-CAST-Collective-Floor/picture14.jpg",
+                "/products/SHIBUYA-CAST-Collective-Floor/picture15.jpg"
+            ],
+            "date": "April,2017",
+            "location": "Shibuya-ku,Tokyo",
+            "web": "http://shibuyacast.jp/",
+            "photographer": "Shibuya Miyasitacho Realty Co., Ltd., NARUSE•INOKUMA ARCHITECTS"
         },
         { 
             "id": 31, 
@@ -286,7 +967,28 @@
             "title": ["GRAND PROJECTS:", "HOW FAR WILL YOU GO?"],
             "subTitle": ["21_21 DESIGN SIGHT企画展", "「『そこまでやるか』壮大なプロジェクト展」"],
             "category": "Exhibition",
-            "architect": "Honda"
+            "architect": "Honda",
+            "url": "1_21-design-sight企画展-「『そこまでやるか』壮大なプロジェ",
+            "picture": [
+                "/products/GRAND-PROJECTS/picture1.jpg",
+                "/products/GRAND-PROJECTS/picture2.jpg",
+                "/products/GRAND-PROJECTS/picture3.jpg",
+                "/products/GRAND-PROJECTS/picture4.jpg",
+                "/products/GRAND-PROJECTS/picture5.jpg",
+                "/products/GRAND-PROJECTS/picture6.jpg",
+                "/products/GRAND-PROJECTS/picture7.jpg",
+                "/products/GRAND-PROJECTS/picture8.jpg",
+                "/products/GRAND-PROJECTS/picture9.jpg",
+                "/products/GRAND-PROJECTS/picture10.jpg",
+                "/products/GRAND-PROJECTS/picture11.jpg",
+                "/products/GRAND-PROJECTS/picture12.jpg",
+                "/products/GRAND-PROJECTS/picture13.jpg",
+                "/products/GRAND-PROJECTS/picture14.jpg"
+            ],
+            "date": "2017.6-10",
+            "location": "Roppongi,Tokyo",
+            "web": "http://www.2121designsight.jp/",
+            "photographer": "Keizo Kioku, NARUSE•INOKUMA ARCHITECTS(1,4〜6)"
         },
         { 
             "id": 32, 
@@ -295,7 +997,21 @@
             "title": "FabCafe Tokyo（Renewal）", 
             "subTitle": "FabCafe Tokyo（リニューアル）",
             "category": "Shared Space",
-            "architect": "Furuichi"
+            "architect": "Furuichi",
+            "url": "fabcafe-tokyo（リニューアル）",
+            "picture": [
+                "/products/FabCafe-Tokyo/picture1.jpg",
+                "/products/FabCafe-Tokyo/picture2.jpg",
+                "/products/FabCafe-Tokyo/picture3.jpg",
+                "/products/FabCafe-Tokyo/picture4.jpg",
+                "/products/FabCafe-Tokyo/picture5.jpg",
+                "/products/FabCafe-Tokyo/picture6.jpg",
+                "/products/FabCafe-Tokyo/picture7.jpg"
+            ],
+            "date": "August, 2015",
+            "location": "Shibuya-ku, Tokyo",
+            "web": "http://fabcafe.com/",
+            "photographer": "Kenta Hasegawa"
         },
         { 
             "id": 33, 
@@ -304,7 +1020,31 @@
             "title": "Pure Heart Mizonokuchi", 
             "subTitle": "ピュアハート溝の口",
             "category": "Shared Space",
-            "architect": "Honda"
+            "architect": "Honda",
+            "url": "ピュアハート溝の口",
+            "picture": [
+                "/products/Pure Heart Mizonokuchi/picture1.jpg",
+                "/products/Pure Heart Mizonokuchi/picture2.jpg",
+                "/products/Pure Heart Mizonokuchi/picture3.jpg",
+                "/products/Pure Heart Mizonokuchi/picture4.jpg",
+                "/products/Pure Heart Mizonokuchi/picture5.jpg",
+                "/products/Pure Heart Mizonokuchi/picture6.jpg",
+                "/products/Pure Heart Mizonokuchi/picture7.jpg",
+                "/products/Pure Heart Mizonokuchi/picture8.jpg",
+                "/products/Pure Heart Mizonokuchi/picture9.jpg",
+                "/products/Pure Heart Mizonokuchi/picture10.jpg",
+                "/products/Pure Heart Mizonokuchi/picture11.jpg",
+                "/products/Pure Heart Mizonokuchi/picture12.jpg",
+                "/products/Pure Heart Mizonokuchi/picture13.jpg",
+                "/products/Pure Heart Mizonokuchi/picture14.jpg",
+                "/products/Pure Heart Mizonokuchi/picture15.jpg",
+                "/products/Pure Heart Mizonokuchi/picture16.jpg",
+                "/products/Pure Heart Mizonokuchi/picture17.jpg"
+            ],
+            "date": "June, 2015",
+            "location": "Kawasaki-shi, Kanagawa",
+            "web": "http://pure-mizonokuchi.com/",
+            "photographer": "Kenta Hasegawa"
         },
         { 
             "id": 34, 
@@ -313,7 +1053,30 @@
             "title": "House in Itabashi", 
             "subTitle": "板橋の立体住居",
             "category": "Private House",
-            "architect": ["Furuichi", "Ogiya", "Ota"]
+            "architect": ["Furuichi", "Ogiya", "Ota"],
+            "url": "板橋の立体住居",
+            "picture": [
+                "/products/House in Itabashi/picture1.jpg",
+                "/products/House in Itabashi/picture2.jpg",
+                "/products/House in Itabashi/picture3.jpg",
+                "/products/House in Itabashi/picture4.jpg",
+                "/products/House in Itabashi/picture5.jpg",
+                "/products/House in Itabashi/picture6.jpg",
+                "/products/House in Itabashi/picture7.jpg",
+                "/products/House in Itabashi/picture8.jpg",
+                "/products/House in Itabashi/picture9.jpg",
+                "/products/House in Itabashi/picture10.jpg",
+                "/products/House in Itabashi/picture11.jpg",
+                "/products/House in Itabashi/picture12.jpg",
+                "/products/House in Itabashi/picture13.jpg",
+                "/products/House in Itabashi/picture14.jpg",
+                "/products/House in Itabashi/picture15.jpg",
+                "/products/House in Itabashi/picture16.jpg"
+            ],
+            "date": "December, 2014",
+            "location": "Itabashi-ku, Tokyo",
+            "web": "",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 35, 
@@ -322,7 +1085,28 @@
             "title": "Setagaya Flat", 
             "subTitle": "世田谷フラット",
             "category": "Private House",
-            "architect": ""
+            "architect": "",
+            "url": "setagayaflat",
+            "picture": [
+                "/products/Setagaya-Flat/picture1.jpg",
+                "/products/Setagaya-Flat/picture2.jpg",
+                "/products/Setagaya-Flat/picture3.jpg",
+                "/products/Setagaya-Flat/picture4.jpg",
+                "/products/Setagaya-Flat/picture5.jpg",
+                "/products/Setagaya-Flat/picture6.jpg",
+                "/products/Setagaya-Flat/picture7.jpg",
+                "/products/Setagaya-Flat/picture8.jpg",
+                "/products/Setagaya-Flat/picture9.jpg",
+                "/products/Setagaya-Flat/picture10.jpg",
+                "/products/Setagaya-Flat/picture11.jpg",
+                "/products/Setagaya-Flat/picture12.jpg",
+                "/products/Setagaya-Flat/picture13.jpg",
+                "/products/Setagaya-Flat/picture14.jpg"
+            ],
+            "date": "March, 2011",
+            "location": "Setagaya-ku, Tokyo",
+            "web": "",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 36, 
@@ -331,7 +1115,50 @@
             "title": "FabCafe", 
             "subTitle": "",
             "category": "Shared Space",
-            "architect": ""
+            "architect": "",
+            "url": "fabcafe",
+            "picture": [
+                "/products/FabCafe/picture1.jpg",
+                "/products/FabCafe/picture2.jpg",
+                "/products/FabCafe/picture3.jpg",
+                "/products/FabCafe/picture4.jpg",
+                "/products/FabCafe/picture5.jpg",
+                "/products/FabCafe/picture6.jpg",
+                "/products/FabCafe/picture7.jpg",
+                "/products/FabCafe/picture8.jpg",
+                "/products/FabCafe/picture9.jpg",
+                "/products/FabCafe/picture10.jpg",
+                "/products/FabCafe/picture11.jpg",
+                "/products/FabCafe/picture12.jpg",
+                "/products/FabCafe/picture13.jpg",
+                "/products/FabCafe/picture14.jpg",
+                "/products/FabCafe/picture15.jpg",
+                "/products/FabCafe/picture16.jpg",
+                "/products/FabCafe/picture17.jpg",
+                "/products/FabCafe/picture18.jpg",
+                "/products/FabCafe/picture19.jpg",
+                "/products/FabCafe/picture20.jpg",
+                "/products/FabCafe/picture21.jpg",
+                "/products/FabCafe/picture22.jpg",
+                "/products/FabCafe/picture23.jpg",
+                "/products/FabCafe/picture24.jpg",
+                "/products/FabCafe/picture25.jpg",
+                "/products/FabCafe/picture26.jpg",
+                "/products/FabCafe/picture27.jpg",
+                "/products/FabCafe/picture28.jpg",
+                "/products/FabCafe/picture29.jpg",
+                "/products/FabCafe/picture30.jpg",
+                "/products/FabCafe/picture31.jpg",
+                "/products/FabCafe/picture32.jpg",
+                "/products/FabCafe/picture33.jpg",
+                "/products/FabCafe/picture34.jpg",
+                "/products/FabCafe/picture35.jpg",
+                "/products/FabCafe/picture36.jpg"
+            ],
+            "date": "March, 2012",
+            "location": "Shibuya-ku, Tokyo",
+            "web": "http://fabcafe.com/",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 37, 
@@ -340,7 +1167,18 @@
             "title": "fula", 
             "subTitle": "",
             "category": "Product",
-            "architect": "Honda"
+            "architect": "Honda",
+            "url": "fula",
+            "picture": [
+                "/products/fula/picture1.jpg",
+                "/products/fula/picture2.jpg",
+                "/products/fula/picture3.jpg",
+                "/products/fula/picture4.jpg"
+            ],
+            "date": "2013",
+            "location": "-",
+            "web": "http://monopuri.jp/",
+            "photographer": "MONOPURI,NARUSE•INOKUMA ARCHITECTS"
         },
         { 
             "id": 38, 
@@ -349,7 +1187,19 @@
             "title": "Designing Methods of Shared Space", 
             "subTitle": "シェア空間の設計手法",
             "category": "Media",
-            "architect": "Oka"
+            "architect": "Oka",
+            "url": "シェア空間の設計手法",
+            "picture": [
+                "/products/Designing-Methods-of-Shared-Space/picture1.jpg",
+                "/products/Designing-Methods-of-Shared-Space/picture2.jpg",
+                "/products/Designing-Methods-of-Shared-Space/picture3.jpg",
+                "/products/Designing-Methods-of-Shared-Space/picture4.jpg",
+                "/products/Designing-Methods-of-Shared-Space/picture5.jpg"
+            ],
+            "date": "December, 2016",
+            "location": "",
+            "web": "https://www.amazon.co.jp/dp/4761526319",
+            "photographer": ""
         },
         { 
             "id": 39, 
@@ -358,7 +1208,18 @@
             "title": "Designing Share", 
             "subTitle": "シェアをデザインする",
             "category": "Media",
-            "architect": ""
+            "architect": "",
+            "url": "シェアをデザインする",
+            "picture": [
+                "/products/Designing-Share/picture1.jpg",
+                "/products/Designing-Share/picture2.jpg",
+                "/products/Designing-Share/picture3.jpg",
+                "/products/Designing-Share/picture4.jpg"
+            ],
+            "date": "December, 2013",
+            "location": "",
+            "web": "http://www.amazon.co.jp/dp/4761525649",
+            "photographer": ""
         },
         { 
             "id": 40, 
@@ -367,7 +1228,18 @@
             "title": "KJ June 2014", 
             "subTitle": "KJ 2014年6月号",
             "category": "Media",
-            "architect": "Fujieda"
+            "architect": "Fujieda",
+            "url": "kj-2014年6月号",
+            "picture": [
+                "/products/KJ-June-2014/picture1.jpg",
+                "/products/KJ-June-2014/picture2.jpg",
+                "/products/KJ-June-2014/picture3.jpg",
+                "/products/KJ-June-2014/picture4.jpg"
+            ],
+            "date": "July, 2014",
+            "location": "",
+            "web": "http://www.kj-p.co.jp/book/201406.html",
+            "photographer": ""
         },
         { 
             "id": 41, 
@@ -376,7 +1248,22 @@
             "title": "skyroom", 
             "subTitle": "",
             "category": "Private House",
-            "architect": "Iwai"
+            "architect": "Iwai",
+            "url": "skyroom",
+            "picture": [
+                "/products/skyroom/picture1.jpg",
+                "/products/skyroomm/picture2.jpg",
+                "/products/skyroom/picture3.jpg",
+                "/products/skyroom/picture4.jpg",
+                "/products/skyroom/picture5.jpg",
+                "/products/skyroom/picture6.jpg",
+                "/products/skyroom/picture7.jpg",
+                "/products/skyroom/picture8.jpg"
+            ],
+            "date": "August, 2013",
+            "location": "Yokohama-shi, Kanagawa",
+            "web": "",
+            "photographer": "Masao Nishikawa, ShinkenchikuMasao"
         },
         { 
             "id": 42, 
@@ -385,7 +1272,39 @@
             "title": "THE SCAPE (R)", 
             "subTitle": "",
             "category": "Shared Space",
-            "architect": "Ota"
+            "architect": "Ota",
+            "url": "thescaper",
+            "picture": [
+                "/products/THE-SCAPE(R)/picture1.jpg",
+                "/products/THE-SCAPE(R)/picture2.jpg",
+                "/products/THE-SCAPE(R)/picture3.jpg",
+                "/products/THE-SCAPE(R)/picture4.jpg",
+                "/products/THE-SCAPE(R)/picture5.jpg",
+                "/products/THE-SCAPE(R)/picture6.jpg",
+                "/products/THE-SCAPE(R)/picture7.jpg",
+                "/products/THE-SCAPE(R)/picture8.jpg",
+                "/products/THE-SCAPE(R)/picture9.jpg",
+                "/products/THE-SCAPE(R)/picture10.jpg",
+                "/products/THE-SCAPE(R)/picture11.jpg",
+                "/products/THE-SCAPE(R)/picture12.jpg",
+                "/products/THE-SCAPE(R)/picture13.jpg",
+                "/products/THE-SCAPE(R)/picture14.jpg",
+                "/products/THE-SCAPE(R)/picture15.jpg",
+                "/products/THE-SCAPE(R)/picture16.jpg",
+                "/products/THE-SCAPE(R)/picture17.jpg",
+                "/products/THE-SCAPE(R)/picture18.jpg",
+                "/products/THE-SCAPE(R)/picture19.jpg",
+                "/products/THE-SCAPE(R)/picture20.jpg",
+                "/products/THE-SCAPE(R)/picture21.jpg",
+                "/products/THE-SCAPE(R)/picture22.jpg",
+                "/products/THE-SCAPE(R)/picture23.jpg",
+                "/products/THE-SCAPE(R)/picture24.jpg",
+                "/products/THE-SCAPE(R)/picture25.jpg"
+            ],
+            "date": "",
+            "location": "Tokyo",
+            "web": "http://www.thescape-r.jp/",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 43, 
@@ -394,7 +1313,30 @@
             "title": "HOUSE VISION SUPERLATIVE SPACE", 
             "subTitle": "HOUSE VISION 「極上の間」",
             "category": "Exhibition",
-            "architect": "Iwai"
+            "architect": "Iwai",
+            "url": "housevision",
+            "picture": [
+                "/products/HOUSE-VISION-SUPERLATIVE-SPACE/picture1.jpg",
+                "/products/HOUSE-VISION-SUPERLATIVE-SPACE/picture2.jpg",
+                "/products/HOUSE-VISION-SUPERLATIVE-SPACE/picture3.jpg",
+                "/products/HOUSE-VISION-SUPERLATIVE-SPACE/picture4.jpg",
+                "/products/HOUSE-VISION-SUPERLATIVE-SPACE/picture5.jpg",
+                "/products/HOUSE-VISION-SUPERLATIVE-SPACE/picture6.jpg",
+                "/products/HOUSE-VISION-SUPERLATIVE-SPACE/picture7.jpg",
+                "/products/HOUSE-VISION-SUPERLATIVE-SPACE/picture8.jpg",
+                "/products/HOUSE-VISION-SUPERLATIVE-SPACE/picture9.jpg",
+                "/products/HOUSE-VISION-SUPERLATIVE-SPACE/picture10.jpg",
+                "/products/HOUSE-VISION-SUPERLATIVE-SPACE/picture11.jpg",
+                "/products/HOUSE-VISION-SUPERLATIVE-SPACE/picture12.jpg",
+                "/products/HOUSE-VISION-SUPERLATIVE-SPACE/picture13.jpg",
+                "/products/HOUSE-VISION-SUPERLATIVE-SPACE/picture14.jpg",
+                "/products/HOUSE-VISION-SUPERLATIVE-SPACE/picture15.jpg",
+                "/products/HOUSE-VISION-SUPERLATIVE-SPACE/picture16.jpg"
+            ],
+            "date": "2 March, 2013 - 24 March, 2013",
+            "location": "Koto-ku, Tokyo",
+            "web": "http://house-vision.jp/",
+            "photographer": "Shiinoki, Daichi Ano"
         },
         { 
             "id": 44, 
@@ -403,7 +1345,32 @@
             "title": "Light of 141 polyhedron", 
             "subTitle": "141面体の照明",
             "category": "Product",
-            "architect": "Arei"
+            "architect": "Arei",
+            "url": "141面体の照明",
+            "picture": [
+                "/products/Light-of-141-polyhedron/picture1.jpg",
+                "/products/Light-of-141-polyhedron/picture2.jpg",
+                "/products/Light-of-141-polyhedron/picture3.jpg",
+                "/products/Light-of-141-polyhedron/picture4.jpg",
+                "/products/Light-of-141-polyhedron/picture5.jpg",
+                "/products/Light-of-141-polyhedron/picture6.jpg",
+                "/products/Light-of-141-polyhedron/picture7.jpg",
+                "/products/Light-of-141-polyhedron/picture8.jpg",
+                "/products/Light-of-141-polyhedron/picture9.jpg",
+                "/products/Light-of-141-polyhedron/picture10.jpg",
+                "/products/Light-of-141-polyhedron/picture11.jpg",
+                "/products/Light-of-141-polyhedron/picture12.jpg",
+                "/products/Light-of-141-polyhedron/picture13.jpg",
+                "/products/Light-of-141-polyhedron/picture14.jpg",
+                "/products/Light-of-141-polyhedron/picture15.jpg",
+                "/products/Light-of-141-polyhedron/picture16.jpg",
+                "/products/Light-of-141-polyhedron/picture17.jpg",
+                "/products/Light-of-141-polyhedron/picture18.jpg"
+            ],
+            "date": "2011",
+            "location": "",
+            "web": "",
+            "photographer": ""
         },
         { 
             "id": 45, 
@@ -412,7 +1379,24 @@
             "title": "one for all", 
             "subTitle": "",
             "category": "Product",
-            "architect": "Arei"
+            "architect": "Arei",
+            "url": "one-for-all",
+            "picture": [
+                "/products/one-for-all/picture1.jpg",
+                "/products/one-for-all/picture2.jpg",
+                "/products/one-for-all/picture3.jpg",
+                "/products/one-for-all/picture4.jpg",
+                "/products/one-for-all/picture5.jpg",
+                "/products/one-for-all/picture6.jpg",
+                "/products/one-for-all/picture7.jpg",
+                "/products/one-for-all/picture8.jpg",
+                "/products/one-for-all/picture9.jpg",
+                "/products/one-for-all/picture10.jpg"
+            ],
+            "date": "October, 2011",
+            "location": "",
+            "web": "",
+            "photographer": ""
         },
         { 
             "id": 46, 
@@ -421,7 +1405,25 @@
             "title": ["UNDER35Garelly", "Exhibiton of Yuri Naruse+Jun Inokuma"],
             "subTitle": ["UNDER35ギャラリー", "成瀬友梨＋猪熊純展"],
             "category": "Exhibition",
-            "architect": ""
+            "architect": "",
+            "url": "under35ギャラリー%e3%80%80成瀬友梨＋猪熊純展",
+            "picture": [
+                "/products/UNDER35Garelly/picture1.jpg",
+                "/products/UNDER35Garelly/picture2.jpg",
+                "/products/UNDER35Garelly/picture3.jpg",
+                "/products/UNDER35Garelly/picture4.jpg",
+                "/products/UNDER35Garelly/picture5.jpg",
+                "/products/UNDER35Garelly/picture6.jpg",
+                "/products/UNDER35Garelly/picture7.jpg",
+                "/products/UNDER35Garelly/picture8.jpg",
+                "/products/UNDER35Garelly/picture9.jpg",
+                "/products/UNDER35Garelly/picture10.jpg",
+                "/products/UNDER35Garelly/picture11.jpg"
+            ],
+            "date": "16 September, 2011 - 28 September, 2011",
+            "location": "Yokohama-shi, Kanagawa",
+            "web": "",
+            "photographer": ""
         },
         { 
             "id": 47, 
@@ -430,7 +1432,23 @@
             "title": "IE-tag Color", 
             "subTitle": "イエタグ・カラー",
             "category": "Product",
-            "architect": ""
+            "architect": "",
+            "url": "イエタグ・カラー",
+            "picture": [
+                "/products/IE-tag-Color/picture1.jpg",
+                "/products/IE-tag-Color/picture2.jpg",
+                "/products/IE-tag-Color/picture3.jpg",
+                "/products/IE-tag-Color/picture4.jpg",
+                "/products/IE-tag-Color/picture5.jpg",
+                "/products/IE-tag-Color/picture6.jpg",
+                "/products/IE-tag-Color/picture7.jpg",
+                "/products/IE-tag-Color/picture8.jpg",
+                "/products/IE-tag-Color/picture9.jpg"
+            ],
+            "date": "2011",
+            "location": "",
+            "web": "",
+            "photographer": ""
         },
         { 
             "id": 48, 
@@ -439,7 +1457,28 @@
             "title": "IE-tag", 
             "subTitle": "イエタグ",
             "category": "Product",
-            "architect": ""
+            "architect": "",
+            "url": "イエタグ",
+            "picture": [
+                "/products/IE-tag/picture1.jpg",
+                "/products/IE-tag/picture2.jpg",
+                "/products/IE-tag/picture3.jpg",
+                "/products/IE-tag/picture4.jpg",
+                "/products/IE-tag/picture5.jpg",
+                "/products/IE-tag/picture6.jpg",
+                "/products/IE-tag/picture7.jpg",
+                "/products/IE-tag/picture8.jpg",
+                "/products/IE-tag/picture9.jpg",
+                "/products/IE-tag/picture10.jpg",
+                "/products/IE-tag/picture11.jpg",
+                "/products/IE-tag/picture12.jpg",
+                "/products/IE-tag/picture13.jpg",
+                "/products/IE-tag/picture14.jpg"
+            ],
+            "date": "October, 2010",
+            "location": "",
+            "web": "",
+            "photographer": ""
         },
         { 
             "id": 49, 
@@ -448,7 +1487,24 @@
             "title": "Re-think about Living and Gathering", 
             "subTitle": "集まって住む、を考えなおす",
             "category": "Exhibition",
-            "architect": ""
+            "architect": "",
+            "url": "集まって住む、を考えなおす",
+            "picture": [
+                "/products/Re-think-about-Living-and-Gathering/picture1.jpg",
+                "/products/Re-think-about-Living-and-Gathering/picture2.jpg",
+                "/products/Re-think-about-Living-and-Gathering/picture3.jpg",
+                "/products/Re-think-about-Living-and-Gathering/picture4.jpg",
+                "/products/Re-think-about-Living-and-Gathering/picture5.jpg",
+                "/products/Re-think-about-Living-and-Gathering/picture6.jpg",
+                "/products/Re-think-about-Living-and-Gathering/picture7.jpg",
+                "/products/Re-think-about-Living-and-Gathering/picture8.jpg",
+                "/products/Re-think-about-Living-and-Gathering/picture9.jpg",
+                "/products/Re-think-about-Living-and-Gathering/picture10.jpg"
+            ],
+            "date": "23 September, 2010 - 5 October, 2010",
+            "location": "Shinjuku-ku, Tokyo",
+            "web": "",
+            "photographer": ""
         },
         { 
             "id": 50, 
@@ -457,7 +1513,26 @@
             "title": "Earth: Materials for Design", 
             "subTitle": "地球マテリアル会議",
             "category": "Exhibition",
-            "architect": ""
+            "architect": "",
+            "url": "地球マテリアル会議",
+            "picture": [
+                "/products/Earth-Materials-for-Design/picture1.jpg",
+                "/products/Earth-Materials-for-Design/picture2.jpg",
+                "/products/Earth-Materials-for-Design/picture3.jpg",
+                "/products/Earth-Materials-for-Design/picture4.jpg",
+                "/products/Earth-Materials-for-Design/picture5.jpg",
+                "/products/Earth-Materials-for-Design/picture6.jpg",
+                "/products/Earth-Materials-for-Design/picture7.jpg",
+                "/products/Earth-Materials-for-Design/picture8.jpg",
+                "/products/Earth-Materials-for-Design/picture9.jpg",
+                "/products/Earth-Materials-for-Design/picture10.jpg",
+                "/products/Earth-Materials-for-Design/picture11.jpg",
+                "/products/Earth-Materials-for-Design/picture12.jpg"
+            ],
+            "date": "19 May, 2010 - 7 July, 2010",
+            "location": "Koto-ku, Tokyo",
+            "web": "",
+            "photographer": ""
         },
         { 
             "id": 51, 
@@ -466,7 +1541,20 @@
             "title": "cloths poles", 
             "subTitle": "",
             "category": "Product",
-            "architect": ""
+            "architect": "",
+            "url": "cloths-poles",
+            "picture": [
+                "/products/cloths-poles/picture1.jpg",
+                "/products/cloths-poles/picture2.jpg",
+                "/products/cloths-poles/picture3.jpg",
+                "/products/cloths-poles/picture4.jpeg",
+                "/products/cloths-poles/picture5.jpeg",
+                "/products/cloths-poles/picture6.jpeg"
+            ],
+            "date": "November, 2009",
+            "location": "Koto-ku, Tokyo",
+            "web": "",
+            "photographer": ""
         },
         { 
             "id": 52, 
@@ -475,7 +1563,18 @@
             "title": "from one sheet", 
             "subTitle": "",
             "category": "Product",
-            "architect": ""
+            "architect": "",
+            "url": "from-one-sheet",
+            "picture": [
+                "/products/from-one-sheet/picture1.jpg",
+                "/products/from-one-sheet/picture2.jpg",
+                "/products/from-one-sheet/picture3.jpg",
+                "/products/from-one-sheet/picture4.jpeg"
+            ],
+            "date": "November, 2008",
+            "location": "",
+            "web": "",
+            "photographer": ""
         },
         { 
             "id": 53, 
@@ -484,7 +1583,26 @@
             "title": "Forest of One Room", 
             "subTitle": ["ひとへやの森", "インタラクティブな風景展"],
             "category": "Exhibition",
-            "architect": ""
+            "architect": "",
+            "url": "ひとへやの森 インタラクティブな風景展",
+            "picture": [
+                "/products/Forest-of-One-Room/picture1.jpg",
+                "/products/Forest-of-One-Room/picture2.jpg",
+                "/products/Forest-of-One-Room/picture3.jpg",
+                "/products/Forest-of-One-Room/picture4.jpg",
+                "/products/Forest-of-One-Room/picture5.jpg",
+                "/products/Forest-of-One-Room/picture6.jpg",
+                "/products/Forest-of-One-Room/picture7.jpg",
+                "/products/Forest-of-One-Room/picture8.jpg",
+                "/products/Forest-of-One-Room/picture9.jpg",
+                "/products/Forest-of-One-Room/picture10.jpg",
+                "/products/Forest-of-One-Room/picture11.jpg",
+                "/products/Forest-of-One-Room/picture12.jpg"
+            ],
+            "date": "1 November, 2008 - 4 November, 2008",
+            "location": "Shibuya-ku, Tokyo",
+            "web": "",
+            "photographer": "Masao Nishikawa"
         },
         { 
             "id": 54, 
@@ -493,7 +1611,22 @@
             "title": "ROOM 101", 
             "subTitle": "",
             "category": "Private House",
-            "architect": ""
+            "architect": "",
+            "url": "room-101",
+            "picture": [
+                "/products/ROOM101/picture1.jpg",
+                "/products/ROOM101/picture2.jpg",
+                "/products/ROOM101/picture3.jpg",
+                "/products/ROOM101/picture4.jpg",
+                "/products/ROOM101/picture5.jpg",
+                "/products/ROOM101/picture6.jpg",
+                "/products/ROOM101/picture7.jpg",
+                "/products/ROOM101/picture8.jpg"
+            ],
+            "date": "July, 2006",
+            "location": "Shibuya-ku, Tokyo",
+            "web": "",
+            "photographer": "Masao Nishikawa"
         }
     ],
     "categories": [

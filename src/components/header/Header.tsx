@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { Navi } from "../nav/Navi"
 import styles from "./Header.module.scss"
 import { Element } from "react-scroll";
+import Link from "next/link";
 
 export const Header = () => {
 
@@ -39,11 +40,11 @@ export const Header = () => {
         <div className={`${styles.navSec} ${isfixed ? styles.fixed : ""}`}>
             <Navi />
         </div>
-        <div className={styles.contactCont}>
+        <Link href="/contact" className={styles.contactCont}>
                 <p>CONTACT</p>
                 <p>联系我们</p>
                 <p>연락처</p>
-            </div>
+        </Link>
         </div>
       </section>
     </Element>

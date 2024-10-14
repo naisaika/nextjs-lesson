@@ -1,0 +1,42 @@
+.contactSection {
+    font-family: "Times New Roman", "游明朝", "YuMincho", "Hiragino Mincho ProN", "Meiryo", "serif";
+    max-width: 900px;
+    width: 100vw;
+    margin-bottom: 120px;
+}
+
+.contactSection h2 {
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+}
+
+.contactSection h3 {
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    line-height: 2.2;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.contactSection h4 {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    margin: 0;
+}
+
+.contactSection p {
+    line-height: 2.2;
+    font-size: 14px;
+    letter-spacing: .1em;
+}
+
+.contactSection span {
+    font-weight: 600;
+}
+
+
+.email {
+    margin: 16px 0 40px;
+}
