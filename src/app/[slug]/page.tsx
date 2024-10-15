@@ -82,7 +82,10 @@ const WorkDetailPage = ({ params }: Params) => {
   return (
     <div>
       <div className={styles.titleCont}>
-        <h2 className={styles.title}>{post.title}</h2>
+        <h2 className={styles.title}>
+          {Array.isArray(post.title)? post.title.map((title, index) => (
+            <span key={index}>{title}</span>
+          )): post.title}</h2>
         <button type="button" className={styles.detailBtn}>DETAIL</button>
       </div>
       <div className={styles.picCont}>
@@ -90,18 +93,25 @@ const WorkDetailPage = ({ params }: Params) => {
           <video src={post.video} controls width={900} height={600} className={styles.video}></video>
         )}
         {Array.isArray(post.picture) && post.picture.map((pic, index) => (
-          <Image key={index} src={pic} className={`${styles.pic} ${pictureClasses[index]}`} // クラスを追加
+          <Image key={index} src={pic} className={`${styles.pic} ${pictureClasses[index]}`}
           onLoad={(e) => handleImageLoad(e, index)}  // 画像ロード時にクラスを設定
             alt={`作品詳細${pic}-${index}`} width={900} height={600} priority />
         ))}
       </div>
-      <div>
-        <div>
-          <h3>{post.title}</h3>
-          <p>{post.subTitle}</p>
-          <span></span>
-          <p>Category: {post.category}</p>
-          <p>Architect: 
+      <div className={styles.textSection}>
+        <div className={styles.textCont}>
+          <h3 className={styles.textTitle}>
+            {Array.isArray(post.title)? post.title.map((title, index) => (
+              <span key={index}>{title}</span>
+            )): post.title}
+          </h3>
+          <p className={styles.textSubTitle}>
+             {Array.isArray(post.subTitle)? post.subTitle.map((title, index) => (
+              <span key={index}>{title}</span>
+            )): post.subTitle}</p>
+          <span className={styles.line}></span>
+          <p className={styles.nomalText}>Category:&nbsp;{post.category}</p>
+          <p className={styles.nomalText}>Architect:&nbsp;
             {Array.isArray(post.architect) && 
               post.architect.map((text, index) => (
                 <span key={index}>
@@ -110,12 +120,12 @@ const WorkDetailPage = ({ params }: Params) => {
                 </span>
               ))}
           </p>
-          <p>Date: {post.date}</p>
-          <p>Location: {post.location}</p>
-          <p>Web: {post.web}</p>
-          <p>Photographer: {post.photographer}</p>
+          <p className={styles.nomalText}>Date: {post.date}</p>
+          <p className={styles.nomalText}>Location: {post.location}</p>
+          <p className={styles.nomalText}>Web: {post.web}</p>
+          <p className={styles.nomalText}>Photographer: {post.photographer}</p>
         </div>
-        {detailText && <div>{detailText.text}</div>}
+        {detailText && <div className={styles.textDetail}>{detailText.text}</div>}
       </div>
     </div>
   );

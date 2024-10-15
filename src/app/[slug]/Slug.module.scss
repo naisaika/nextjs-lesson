@@ -15,6 +15,10 @@
         font-weight: 300;
         font-family: "Times New Roman", "游明朝", "YuMincho", "Hiragino Mincho ProN", "Meiryo", "serif";
         letter-spacing: 0.05em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
     }
     .detailBtn {
         background-color: #fff;
@@ -26,6 +30,7 @@
         margin-top: 8px;
     }
 }
+
 
 .picCont {
     display: flex;
@@ -44,5 +49,50 @@
     .height {
         width: 40vw !important;
         margin: 0 auto !important;
+    }
+}
+.textSection {
+    display: flex;
+    max-width: 900px;
+    margin: 80px auto 120px;
+    .textCont {
+        width: 40%;
+        margin-left: 24px;
+    }
+    .textTitle {
+        font-weight: 400;
+        font-family: "Times New Roman", "游明朝", "YuMincho", "Hiragino Mincho ProN", "Meiryo", "serif";
+        font-size: 24px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        letter-spacing: 0.05em;
+        line-height: 1.5;
+        margin: 0;
+    }
+    .textSubTitle {
+        font-size: 12px;
+        font-family: "Times New Roman", "游明朝", "YuMincho", "Hiragino Mincho ProN", "Meiryo", "serif";
+        font-weight: 300;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .line {
+        width: 5vw;
+        height: 0.5px;
+        background-color: #000;
+        display: inline-block;
+    }
+    .nomalText {
+        font-size: 12px;
+        font-family: "Times New Roman", "游明朝", "YuMincho", "Hiragino Mincho ProN", "Meiryo", "serif";
+        font-weight: 300;
+        letter-spacing: 0.08em;
+        margin: 8px 0;
+    }
+    .textDetail {
+        width: 60%;
+        margin: 0;
     }
 }
