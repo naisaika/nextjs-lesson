@@ -1,0 +1,22 @@
+
+.picCont {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100vw;
+    .video {
+        width: 100vw;
+        height: auto;
+    }
+    .pic {
+        // width: 100vw;
+        height: auto;
+    }
+    .width {
+        width: 100vw !important;
+    }
+    .height {
+        width: 40vw !important;
+        margin: 0 auto !important;
+    }
+}

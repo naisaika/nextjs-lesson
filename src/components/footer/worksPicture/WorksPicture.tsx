@@ -70,14 +70,14 @@ export const WorksPicture = ({clickedCategory, clickedArchitect}: onClickProps) 
             if (!card) return;
             const category = card.dataset.category;
             const architect = card.dataset.architect;
-          
+       
             // card.dataset.architectがカンマ区切りの文字列なら配列に変換
             const architectList = architect ? architect.split(',').map(a => a.trim()) : [];
-          
+
             // category と architect 両方に基づいてフィルタリング
             const showCard = filterCard.some((data) => {
               const matchedCategory = data.category === category;
-          
+        
               // architectが配列の場合はincludesで確認、文字列なら直接比較
               const matchedArchitect = architectList.length > 0
                 ? Array.isArray(data.architect)
@@ -90,8 +90,10 @@ export const WorksPicture = ({clickedCategory, clickedArchitect}: onClickProps) 
     
             // 表示・非表示を切り替え
             const hiddenCard = card.classList.contains("WorksPicture_hidden__ipmON");
-
+            console.log("showCard", showCard)
+            console.log("hiddenCard",hiddenCard)
             if (!showCard && !hiddenCard) {
+              console.log("実行")
               card.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 1000 });
             } 
     

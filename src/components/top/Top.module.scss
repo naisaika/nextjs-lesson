@@ -12,5 +12,9 @@
             cursor: pointer;
         }
     }
+}
 
+.loading {
+    opacity: 0.3;
+    transition: opacity 0.5s ease;
 }

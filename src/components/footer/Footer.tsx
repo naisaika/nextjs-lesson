@@ -46,7 +46,7 @@ export const Footer = () => {
     <Element name="footer" className={styles.footerDiv}>
       <section className={styles.footerSec} ref={footerRef} id="footer">
         <div className={styles.worksCont}>
-          <WorkButton className={styles.footerWorkBtn}/>
+          <WorkButton className={`${styles.footerWorkBtn} ${styles.footerWorkTitle}`}/>
           <Works/>
           <WorksPicture onClick={handleClickBtn} 
             clickedCategory={clickedCategory} clickedArchitect={clickedArchitect}/>

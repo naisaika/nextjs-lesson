@@ -30,31 +30,10 @@
         margin-top: 8px;
     }
 }
-
-
-.picCont {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    .video {
-        width: 100vw;
-        height: auto;
-    }
-    .pic {
-        height: auto;
-    }
-    .width {
-        width: 100vw !important;
-    }
-    .height {
-        width: 40vw !important;
-        margin: 0 auto !important;
-    }
-}
 .textSection {
     display: flex;
     max-width: 900px;
-    margin: 80px auto 120px;
+    margin: 120px auto;
     .textCont {
         width: 40%;
         margin-left: 24px;
@@ -77,12 +56,14 @@
         display: flex;
         flex-direction: column;
         margin: 0;
+        letter-spacing: .1em;
     }
     .line {
-        width: 5vw;
+        width: 3vw;
         height: 0.5px;
         background-color: #000;
         display: inline-block;
+        margin: 16px 0 8px; 
     }
     .nomalText {
         font-size: 12px;
@@ -91,8 +72,26 @@
         letter-spacing: 0.08em;
         margin: 8px 0;
     }
+    .webText {
+        font-size: 12px;
+        font-family: "Times New Roman", "游明朝", "YuMincho", "Hiragino Mincho ProN", "Meiryo", "serif";
+        font-weight: 300;
+        letter-spacing: 0.08em;
+        margin: 8px 8px 8px 0;
+        display: flex;
+        flex-wrap: wrap;
+        .web {
+            text-decoration: underline;
+            font-style: italic;
+        }
+    }
     .textDetail {
         width: 60%;
         margin: 0;
     }
+}
+
+.loading {
+    opacity: 0.3;
+    transition: opacity 0.5s ease;
 }
