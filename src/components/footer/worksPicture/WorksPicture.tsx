@@ -90,10 +90,7 @@ export const WorksPicture = ({clickedCategory, clickedArchitect}: onClickProps) 
     
             // 表示・非表示を切り替え
             const hiddenCard = card.classList.contains("WorksPicture_hidden__ipmON");
-            console.log("showCard", showCard)
-            console.log("hiddenCard",hiddenCard)
             if (!showCard && !hiddenCard) {
-              console.log("実行")
               card.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 1000 });
             } 
     

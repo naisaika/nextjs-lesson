@@ -85,7 +85,7 @@ export const Top = () => {
             <ul className={styles.bgImgList}>
                 {BG_IMG.map((img, index) => {
 
-                    const moveLink = data?.find((dataItem) => dataItem.id === img.id);
+                    const moveLink = data?.find((dataItem) => String(dataItem.id) === String(img.id));
 
                     return (
                         <li key={img.id}
@@ -102,7 +102,6 @@ export const Top = () => {
                                     className={styles.bgImg}>
                                 </Image>
                             </Link>
-
                             <TopBgImgCaption categoryData={getCategory} architectData={getArchitect}
                                 imgId={img.id} mouseHover={hoverImg === img.id}/>
                         </li>
